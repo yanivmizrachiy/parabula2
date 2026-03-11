@@ -131,3 +131,13 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/vector_assets/deltoid_page38.svg`
 - גרסה זו מיועדת לשיפור חדות גיאומטרית מעבר לאיכות המקור
 - גם כאן אין להשתמש ב-inline CSS בתוך HTML
+
+---
+
+## Page 42 deep enhancement
+
+- עמוד 42 של דלתון עבר extraction מחדש ברזולוציה גבוהה ושיפור חזותי ייעודי.
+- הקבצים:
+  - `worksheets/deltoid/exact_assets/page-42-enhanced.png`
+  - `worksheets/deltoid/exact_pages/page-42.html`
+- זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.

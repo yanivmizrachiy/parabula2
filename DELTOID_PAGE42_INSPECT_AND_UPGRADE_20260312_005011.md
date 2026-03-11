@@ -1,0 +1,75 @@
+# Deltoid page 42 inspect and upgrade
+
+- time: 2026-03-12T00:50:18+02:00
+
+## files
+worksheets/deltoid/page42_inspection/page-42-enhanced.png
+worksheets/deltoid/page42_inspection/page-42-images.txt
+worksheets/deltoid/page42_inspection/page-42-lines.png
+worksheets/deltoid/page42_inspection/page-42-raw.png
+worksheets/deltoid/page42_inspection/page-42.txt
+worksheets/deltoid/page42_inspection/page42-42.png
+
+## image list
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+  42     0 image     630   189  rgb     3   8  image  no       251  0    79    79 19.2K 5.5%
+
+## extracted text
+‫שאלה ‪78‬‬
+
+‫ריכוז שאלות דלתון לכיתה ט'‬
+
+‫‪42‬‬
+
+
+## tests
+
+> test
+> node --test
+
+[32m✔ graphics analysis file exists [90m(2.857656ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.614896ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(2.807344ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.413645ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.167136ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(1.828125ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.354427ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.239583ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(1.663958ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.155365ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(6.319323ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(1.528282ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(0.263334ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(1.532396ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(4.2925ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(2.305313ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.261458ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.662916ms)[39m[39m
+[32m✔ rules files exist [90m(1.51823ms)[39m[39m
+[34mℹ tests 19[39m
+[34mℹ suites 0[39m
+[34mℹ pass 19[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 481.661666[39m
+
+## git status
+ M PROJECT_RULES.md
+ M RULES.md
+ M worksheets/deltoid/exact_assets/page-42-enhanced.png
+?? DELTOID_PAGE42_INSPECT_AND_UPGRADE_20260312_005011.md
+?? deltoid_page42_test_output.txt
+?? tests/deltoid-page42.test.mjs
+?? tools/deep_graphics_upgrade.sh
+?? tools/deep_graphics_upgrade_fix.sh
+?? tools/fix_deltoid_page9_deep.sh
+?? tools/inspect_and_upgrade_page42.sh
+?? tools/rebuild_deltoid_page38_svg.sh
+?? tools/rebuild_deltoid_page9_svg.sh
+?? tools/run_deltoid_exact_mode.sh
+?? tools/run_deltoid_preview_integration.sh
+?? tools/run_exact_preview_publish_integration.sh
+?? worksheets/deltoid/page42_inspection/

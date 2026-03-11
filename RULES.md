@@ -104,3 +104,12 @@ sources/geometry/deltoid/source.pdf
 - השרטוט נשמר תחת:
   `worksheets/deltoid/vector_assets/deltoid_page38.svg`
 - הגרסה נועדה לשפר חדות גיאומטרית משמעותית
+
+---
+
+## עמוד 42 של דלתון שופר חזותית
+
+- עמוד 42 משתמש בגרסת source משופרת:
+  `worksheets/deltoid/exact_assets/page-42-enhanced.png`
+- זהו שיפור עומק חזותי מתוך המקור
+- אין להציג זאת כווקטור נקי חדש
