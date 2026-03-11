@@ -94,3 +94,13 @@ sources/geometry/deltoid/source.pdf
   `page-XX-enhanced.png`
 - דפי exact המתאימים חייבים להשתמש בגרסה המשופרת
 - זהו שיפור חזותי מתוך המקור, לא הצגה כווקטור חדש
+
+---
+
+## עמוד 38 נבנה מחדש כגרסה וקטורית
+
+- גרסת הווקטור של עמוד 38 נשמרת תחת:
+  `worksheets/deltoid/vector_pages/page-38.html`
+- השרטוט נשמר תחת:
+  `worksheets/deltoid/vector_assets/deltoid_page38.svg`
+- הגרסה נועדה לשפר חדות גיאומטרית משמעותית

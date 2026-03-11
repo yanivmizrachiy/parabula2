@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <defs>
+    <style>
+      .edge { stroke:#111827; stroke-width:5; fill:none; vector-effect:non-scaling-stroke; }
+      .kite { stroke:#111827; stroke-width:5; fill:none; vector-effect:non-scaling-stroke; }
+      .pt { font-family:Arial, sans-serif; font-size:34px; fill:#111827; }
+      .mid { font-family:Arial, sans-serif; font-size:32px; fill:#111827; }
+    </style>
+  </defs>
+
+  <!-- rectangle -->
+  <line class="edge" x1="120" y1="100" x2="520" y2="100"/>
+  <line class="edge" x1="520" y1="100" x2="520" y2="560"/>
+  <line class="edge" x1="520" y1="560" x2="120" y2="560"/>
+  <line class="edge" x1="120" y1="560" x2="120" y2="100"/>
+
+  <!-- kite MKTE -->
+  <line class="kite" x1="320" y1="100" x2="120" y2="410"/>
+  <line class="kite" x1="320" y1="100" x2="520" y2="410"/>
+  <line class="kite" x1="120" y1="410" x2="320" y2="560"/>
+  <line class="kite" x1="520" y1="410" x2="320" y2="560"/>
+
+  <!-- labels -->
+  <text class="pt" x="75" y="112">A</text>
+  <text class="pt" x="535" y="112">B</text>
+  <text class="pt" x="535" y="590">C</text>
+  <text class="pt" x="75" y="590">D</text>
+
+  <text class="mid" x="305" y="82">M</text>
+  <text class="mid" x="304" y="610">T</text>
+  <text class="mid" x="88" y="420">E</text>
+  <text class="mid" x="535" y="420">K</text>
+</svg>

@@ -1,0 +1,56 @@
+.vector-page-shell{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  min-height:100vh;
+  padding:24px 12px;
+  background:#eef3f9;
+}
+
+.vector-page{
+  width:210mm;
+  min-height:297mm;
+  margin:0 auto;
+  background:#ffffff;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  padding:18mm 16mm;
+}
+
+.vector-figure-wrap{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:18px;
+  margin-bottom:22px;
+}
+
+.vector-figure{
+  width:360px;
+  max-width:100%;
+  display:block;
+}
+
+.vector-notes{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+  margin-top:24px;
+}
+
+.vector-line{
+  border-bottom:2px solid #111827;
+  min-height:24px;
+}
+
+@media print{
+  .vector-page-shell{
+    padding:0;
+    min-height:auto;
+    background:#fff;
+  }
+
+  .vector-page{
+    margin:0;
+    box-shadow:none;
+  }
+}

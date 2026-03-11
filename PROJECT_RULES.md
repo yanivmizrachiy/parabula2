@@ -120,3 +120,14 @@ sources/geometry/deltoid/source.pdf
 - דפי exact הרלוונטיים חייבים להצביע לקובץ המשופר.
 - זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.
 - יש לשמור דוח ניתוח שמסמן אילו עמודים הוגדרו low-DPI ואילו שופרו.
+
+---
+
+## Page 38 vector rebuild
+
+- עמוד 38 של דלתון נבנה גם בגרסה וקטורית תחת:
+  `worksheets/deltoid/vector_pages/page-38.html`
+- השרטוט נשמר תחת:
+  `worksheets/deltoid/vector_assets/deltoid_page38.svg`
+- גרסה זו מיועדת לשיפור חדות גיאומטרית מעבר לאיכות המקור
+- גם כאן אין להשתמש ב-inline CSS בתוך HTML
