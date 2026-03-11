@@ -1,0 +1,15 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "grade": "ט",
+  "source_file": "sources/geometry/deltoid/source.pdf",
+  "source_title": "ריכוז שאלות דלתון לכיתה ט",
+  "page_size": "A4",
+  "source_of_truth": true,
+  "rules": [
+    "אין לייצר תוכן שלא קיים במקור",
+    "אין placeholders",
+    "כל דף עבודה חייב להיות מבוסס על המקור",
+    "כל שינוי חייב להירשם ב-RULES.md"
+  ]
+}

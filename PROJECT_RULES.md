@@ -42,3 +42,11 @@ This repository is a self-validating, RTL-first A4 worksheet engine.
 ## Publish Contract
 - Output is built into `site/`.
 - Before deployment, confirm that `site/` contains the expected textbook pages.
+
+
+## Source material
+
+מקור החומר לדפי העבודה בנושא דלתון:
+
+sources/geometry/deltoid/source.pdf
+
