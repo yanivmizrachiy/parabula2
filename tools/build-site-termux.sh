@@ -7,21 +7,28 @@ SITE="$ROOT/site"
 rm -rf "$SITE"
 mkdir -p "$SITE"
 
-cp -R "$ROOT/styles" "$SITE/"
+[ -d "$ROOT/styles" ] && cp -R "$ROOT/styles" "$SITE/"
 [ -d "$ROOT/assets" ] && cp -R "$ROOT/assets" "$SITE/" || true
 
 find "$ROOT" -maxdepth 1 -type f -name 'עמוד-*.html' -exec cp {} "$SITE/" \;
 
 if [ -d "$ROOT/worksheets" ]; then
-  while IFS= read -r -d "" file; do
+  while IFS= read -r -d '' file; do
     rel="${file#$ROOT/}"
     mkdir -p "$SITE/$(dirname "$rel")"
     cp "$file" "$SITE/$rel"
-  done < <(find "$ROOT/worksheets" -type f \( -name 'page-*.html' -o -name '*.png' -o -name 'manifest.json' \) -print0)
+  done < <(find "$ROOT/worksheets" -type f \( -name 'page-*.html' -o -name '*.png' -o -name 'manifest.json' -o -name 'README.md' \) -print0)
 fi
 
-ROOT_LINKS="$(find "$SITE" -maxdepth 1 -type f -name 'עמוד-*.html' | sort | sed "s#^$SITE/##" | awk "{print \"<li><a href='\''\" \$0 \"'\''>\" \$0 \"</a></li>\"}")"
-TOPIC_LINKS="$(find "$SITE/worksheets" -type f -name 'page-*.html' 2>/dev/null | sort | sed "s#^$SITE/##" | awk "{print \"<li><a href='\''\" \$0 \"'\''>\" \$0 \"</a></li>\"}")"
+ROOT_LINKS="$(
+  find "$SITE" -maxdepth 1 -type f -name 'עמוד-*.html' | sort | sed "s#^$SITE/##" |
+  awk '{print "<li><a href=\""$0"\">"$0"</a></li>"}'
+)"
+
+TOPIC_LINKS="$(
+  find "$SITE/worksheets" -type f -name 'page-*.html' 2>/dev/null | sort | sed "s#^$SITE/##" |
+  awk '{print "<li><a href=\""$0"\">"$0"</a></li>"}'
+)"
 
 cat > "$SITE/index.html" <<HTML
 <!DOCTYPE html>
@@ -43,7 +50,7 @@ cat > "$SITE/index.html" <<HTML
 <ul>
 $ROOT_LINKS
 </ul>
-<div class="question"><span class="q-bullet"></span><div>דפי worksheets</div></div>
+<div class="question"><span class="q-bullet"></span><div>דפי worksheets כולל exact</div></div>
 <ul>
 $TOPIC_LINKS
 </ul>

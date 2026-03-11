@@ -91,3 +91,11 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/exact_assets/`
 - במצב זה אין לבצע שחזור ידני של השרטוטים; שומרים את עמוד המקור בדיוק חזותי מלא.
 - גם במצב זה HTML חייב להישאר ללא style inline, והעיצוב חייב להישען על CSS חיצוני בלבד.
+
+---
+
+## Exact facsimile pages must be visible in preview and publish output
+
+- כל דפי exact תחת `worksheets/**/exact_pages/` או `worksheets/**/pages/` חייבים להיות זמינים ב־`/preview`
+- `api/toc` חייב לכלול גם דפי exact
+- build של `site/` חייב להעתיק גם דפי exact וגם נכסי PNG נלווים

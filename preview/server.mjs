@@ -88,7 +88,16 @@ const server = http.createServer((req, res) => {
       ext === ".html" ? "text/html; charset=utf-8" :
       ext === ".css" ? "text/css; charset=utf-8" :
       ext === ".mjs" ? "text/javascript; charset=utf-8" :
+      ext === ".json" ? "application/json; charset=utf-8" :
+      ext === ".png" ? "image/png" :
       "text/plain; charset=utf-8";
+
+    if (ext === ".png") {
+      res.writeHead(200, { "Content-Type": type });
+      fs.createReadStream(target).pipe(res);
+      return;
+    }
+
     return send(res, 200, fs.readFileSync(target, "utf8"), type);
   }
 
