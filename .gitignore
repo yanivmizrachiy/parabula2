@@ -1,0 +1,7 @@
+node_modules/
+site/
+visual-out/
+*.bak
+*.backup.*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+:root{
+  --title-blue:#1d4ed8;
+  --ink:#0f172a;
+  --line:#cbd5e1;
+  --paper:#ffffff;
+  --bg:#eef3f9;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:Arial,"Rubik","Heebo",sans-serif}
+.a4-page{width:210mm;min-height:297mm;background:var(--paper);margin:24px auto;padding:18mm 16mm;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.worksheet-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px}
+.page-title{margin:0;color:var(--title-blue);font-size:28px;font-weight:400}
+.page-number{width:44px;height:44px;border-radius:999px;border:2px solid var(--title-blue);display:flex;align-items:center;justify-content:center;color:var(--title-blue);font-weight:700}
+.questions{display:flex;flex-direction:column;gap:14px}
+.question{display:flex;align-items:flex-start;gap:10px}
+.q-bullet{width:10px;height:10px;border-radius:999px;background:#111827;flex:0 0 10px;margin-top:8px}
+@media print{
+  body{background:#fff}
+  .a4-page{margin:0;box-shadow:none}
+}
