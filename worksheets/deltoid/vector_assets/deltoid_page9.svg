@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<style>
+.edge{stroke:#000;stroke-width:3;fill:none}
+.diagonal{stroke:#2563eb;stroke-width:4}
+.mark{stroke:#000;stroke-width:2}
+.angle{stroke:#e11d48;stroke-width:3;fill:none}
+.label{font-family:Arial;font-size:24px}
+</style>
+
+<!-- vertices -->
+<circle cx="400" cy="80" r="4"/>
+<circle cx="150" cy="350" r="4"/>
+<circle cx="400" cy="520" r="4"/>
+<circle cx="650" cy="350" r="4"/>
+
+<!-- deltoid edges -->
+<line class="edge" x1="400" y1="80" x2="150" y2="350"/>
+<line class="edge" x1="150" y1="350" x2="400" y2="520"/>
+<line class="edge" x1="400" y1="520" x2="650" y2="350"/>
+<line class="edge" x1="650" y1="350" x2="400" y2="80"/>
+
+<!-- diagonal -->
+<line class="diagonal" x1="400" y1="80" x2="400" y2="520"/>
+
+<!-- labels -->
+<text class="label" x="390" y="60">A</text>
+<text class="label" x="120" y="360">B</text>
+<text class="label" x="390" y="560">C</text>
+<text class="label" x="660" y="360">D</text>
+
+</svg>

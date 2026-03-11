@@ -76,3 +76,12 @@ sources/geometry/deltoid/source.pdf
 - הם חייבים להופיע ב־preview
 - הם חייבים להיכלל ב־site
 - גם קבצי ה־PNG התומכים חייבים לעבור לבנייה
+
+---
+
+## עמוד 9 של דלתון שופר חזותית
+
+- עמוד 9 משתמש בגרסת source משופרת:
+  `worksheets/deltoid/exact_assets/page-09-enhanced.png`
+- זהו שיפור עומק חזותי מתוך המקור
+- אין להציג זאת כווקטור נקי חדש

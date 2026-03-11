@@ -99,3 +99,14 @@ sources/geometry/deltoid/source.pdf
 - כל דפי exact תחת `worksheets/**/exact_pages/` או `worksheets/**/pages/` חייבים להיות זמינים ב־`/preview`
 - `api/toc` חייב לכלול גם דפי exact
 - build של `site/` חייב להעתיק גם דפי exact וגם נכסי PNG נלווים
+
+---
+
+## Page 9 deep enhancement
+
+- עמוד 9 של דלתון עבר extraction מחדש ברזולוציה גבוהה יותר ושיפור חזותי ייעודי.
+- הקבצים:
+  - `worksheets/deltoid/exact_assets/page-09-hires.png`
+  - `worksheets/deltoid/exact_assets/page-09-enhanced.png`
+- `worksheets/deltoid/exact_pages/page-09.html` חייב להצביע לגרסה המשופרת.
+- זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.

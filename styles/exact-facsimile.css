@@ -43,3 +43,11 @@ html,body{
     box-shadow:none;
   }
 }
+
+.exact-page-enhanced{
+  image-rendering:auto;
+}
+
+.exact-image-enhanced{
+  image-rendering:auto;
+}
