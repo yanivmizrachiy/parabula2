@@ -1,0 +1,16 @@
+
+> test
+> node --test
+
+[32m✔ deltoid generated pages exist [90m(1.69401ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.227969ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.68724ms)[39m[39m
+[32m✔ rules files exist [90m(1.494531ms)[39m[39m
+[34mℹ tests 4[39m
+[34mℹ suites 0[39m
+[34mℹ pass 4[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 223.684323[39m

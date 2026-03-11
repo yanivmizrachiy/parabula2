@@ -70,3 +70,11 @@ sources/geometry/deltoid/source.pdf
 - כל דף חייב להכיל רק תוכן שמבוסס על מקור דלתון שנשמר בריפו.
 - כל page generation חייב לעדכן גם manifest.
 - אין לקדם דפים אלו לשלב פרסום סופי בלי בדיקה אנושית של התוכן שחולץ.
+
+---
+
+## Preview must include generated worksheet topic pages
+
+- `/preview` must include generated worksheet pages under `worksheets/**/pages/page-*.html`
+- `api/toc` must expose both root worksheet pages and generated topic pages
+- `site/` build must copy generated topic pages as publishable output
