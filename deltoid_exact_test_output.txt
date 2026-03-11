@@ -1,0 +1,19 @@
+
+> test
+> node --test
+
+[32m✔ exact deltoid png assets exist [90m(1.926979ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.313125ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.235937ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(1.706719ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.27823ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.666771ms)[39m[39m
+[32m✔ rules files exist [90m(2.770677ms)[39m[39m
+[34mℹ tests 7[39m
+[34mℹ suites 0[39m
+[34mℹ pass 7[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 244.30927[39m

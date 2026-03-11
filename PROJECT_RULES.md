@@ -78,3 +78,16 @@ sources/geometry/deltoid/source.pdf
 - `/preview` must include generated worksheet pages under `worksheets/**/pages/page-*.html`
 - `api/toc` must expose both root worksheet pages and generated topic pages
 - `site/` build must copy generated topic pages as publishable output
+
+---
+
+## Deltoid exact facsimile contract
+
+- כאשר נדרש דיוק מלא של השרטוטים והציורים, מותר ליצור עמודי facsimile מדויקים מתוך:
+  `sources/geometry/deltoid/source.pdf`
+- הפלט נשמר תחת:
+  `worksheets/deltoid/exact_pages/`
+- נכסי התמונה המדויקים נשמרים תחת:
+  `worksheets/deltoid/exact_assets/`
+- במצב זה אין לבצע שחזור ידני של השרטוטים; שומרים את עמוד המקור בדיוק חזותי מלא.
+- גם במצב זה HTML חייב להישאר ללא style inline, והעיצוב חייב להישען על CSS חיצוני בלבד.

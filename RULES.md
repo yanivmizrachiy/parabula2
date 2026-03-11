@@ -56,3 +56,14 @@ sources/geometry/deltoid/source.pdf
   `worksheets/**/pages/page-*.html`
 - build ל־site חייב להעתיק גם אותם
 - אסור שדפי עבודה שנוצרו יישארו מנותקים מהתצוגה ומהפרסום
+
+---
+
+## דלתון במצב facsimile מדויק
+
+- כאשר המטרה היא דיוק מלא של השרטוטים, עובדים מול:
+  `worksheets/deltoid/exact_pages/`
+- התמונות נשמרות תחת:
+  `worksheets/deltoid/exact_assets/`
+- אסור לשחזר שרטוטים ידנית אם נדרש דיוק חזותי מלא
+- גם במצב זה אין להכניס CSS פנימי לתוך HTML
