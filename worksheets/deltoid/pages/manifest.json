@@ -1,0 +1,20 @@
+{
+  "topic": "דלתון",
+  "source": "sources/geometry/deltoid/source.pdf",
+  "input": "worksheets/deltoid/extracted/questions.cleaned.json",
+  "page_count": 10,
+  "question_count": 76,
+  "pages": [
+    "worksheets/deltoid/pages/page-01.html",
+    "worksheets/deltoid/pages/page-02.html",
+    "worksheets/deltoid/pages/page-03.html",
+    "worksheets/deltoid/pages/page-04.html",
+    "worksheets/deltoid/pages/page-05.html",
+    "worksheets/deltoid/pages/page-06.html",
+    "worksheets/deltoid/pages/page-07.html",
+    "worksheets/deltoid/pages/page-08.html",
+    "worksheets/deltoid/pages/page-09.html",
+    "worksheets/deltoid/pages/page-10.html"
+  ],
+  "status": "a4_pages_generated_from_cleaned_source"
+}

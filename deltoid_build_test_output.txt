@@ -1,0 +1,14 @@
+
+> test
+> node --test
+
+[32m✔ at least 10 worksheet pages exist [90m(1.632187ms)[39m[39m
+[32m✔ rules files exist [90m(1.518281ms)[39m[39m
+[34mℹ tests 2[39m
+[34mℹ suites 0[39m
+[34mℹ pass 2[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 202.221302[39m

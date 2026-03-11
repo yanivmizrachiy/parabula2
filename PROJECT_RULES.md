@@ -58,3 +58,15 @@ sources/geometry/deltoid/source.pdf
 - לאחר חילוץ ראשוני מ-PDF יש ליצור קובץ ניקוי: `worksheets/deltoid/extracted/questions.cleaned.json`
 - רק ממנו מותר להתקדם לשלב בניית דפי A4
 - אין לבנות דפים ישירות מ־`questions.json` הגולמי
+
+---
+
+## Deltoid A4 generation contract
+
+- דפי A4 בנושא דלתון נוצרים אך ורק מתוך:
+  `worksheets/deltoid/extracted/questions.cleaned.json`
+- הדפים נשמרים תחת:
+  `worksheets/deltoid/pages/`
+- כל דף חייב להכיל רק תוכן שמבוסס על מקור דלתון שנשמר בריפו.
+- כל page generation חייב לעדכן גם manifest.
+- אין לקדם דפים אלו לשלב פרסום סופי בלי בדיקה אנושית של התוכן שחולץ.

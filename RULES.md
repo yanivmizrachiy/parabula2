@@ -35,3 +35,15 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/extracted/questions.cleaned.json`
 - רק אחרי ניקוי מותר לעבור ליצירת דפי עבודה
 - אסור לבנות דפים ישירות מהחילוץ הגולמי
+
+---
+
+## יצירת דפי A4 לדלתון
+
+- דפי דלתון נבנים רק מתוך:
+  `worksheets/deltoid/extracted/questions.cleaned.json`
+- הפלט נשמר תחת:
+  `worksheets/deltoid/pages/`
+- כל דף חייב להישען על מקור אמת בלבד
+- אסור להוסיף שאלות שלא הופיעו במקור
+- לפני שימוש סופי חייבת להיות בדיקה אנושית
