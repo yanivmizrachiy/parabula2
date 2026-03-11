@@ -1,0 +1,541 @@
+{
+  "topic": "דלתון",
+  "grade": "ט",
+  "source": "sources/geometry/deltoid/source.pdf",
+  "status": "cleaned_not_yet_typeset",
+  "question_count": 76,
+  "questions": [
+    {
+      "id": "deltoid-clean-001",
+      "source_page": null,
+      "text": "‫הגדרה‪ :‬דלתון הוא מרובע שבו __________________________________‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-002",
+      "source_page": null,
+      "text": "‫________________________________________________________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-003",
+      "source_page": null,
+      "text": "‫אילו מצולעים הם דלתונים על פי ההגדרה?‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-004",
+      "source_page": null,
+      "text": "‫ריכוז שאלות דלתון לכיתה ט'‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-005",
+      "source_page": null,
+      "text": "‫שאלה ‪- 2‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-006",
+      "source_page": null,
+      "text": "‫שאלה ‪ - 3‬השלימו את אורכי הצלעות החסרות בדלתונים‪( :‬בס\"מ)‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-007",
+      "source_page": null,
+      "text": "‫• חשבו את ההיקף של כל אחד מהדלתונים _______________________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-008",
+      "source_page": null,
+      "text": "‫_______ __________________________________________________‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-009",
+      "source_page": null,
+      "text": "‫‪ ABCD‬הוא דלתון‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-010",
+      "source_page": null,
+      "text": "‫‪ A‬ו‪ C -‬נקראים‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-011",
+      "source_page": null,
+      "text": "‫של הדלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-012",
+      "source_page": null,
+      "text": "‫‪ A‬הוא קודקוד הראש של המשולש שווה שוקיים _________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-013",
+      "source_page": null,
+      "text": "‫‪ C‬הוא קודקוד הראש של המשולש שווה שוקיים ________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-014",
+      "source_page": null,
+      "text": "‫האלכסון ‪ AC‬שמחבר את הקודקודים הראשיים נקרא ___________ של הדלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-015",
+      "source_page": null,
+      "text": "‫לזוויות האחרות (שאינן זוויות ראש) קוראים __________ של הדלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-016",
+      "source_page": null,
+      "text": "‫• האלכסון שמחבר את קודקודי הצד נקרא ______________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-017",
+      "source_page": null,
+      "text": "‫שאלה ‪ - 12‬תזכורת‪ :‬במשולש שווה שוקיים זוויות ____________ שוות‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-018",
+      "source_page": null,
+      "text": "‫זוויות הצד של הדלתון הן‪:‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-019",
+      "source_page": null,
+      "text": "‫בדלתון האלכסון המשני מהווה בסיס לשני משולשים שהם __________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-020",
+      "source_page": null,
+      "text": "‫מסקנה‪ :‬בדלתון זוויות ______ שוות זו לזו‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-021",
+      "source_page": null,
+      "text": "‫מסקנה‪ :‬בדלתון זוויות _______ שוות זו לזו‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-022",
+      "source_page": null,
+      "text": "‫שאלה ‪ - 20‬חשבו את זוויות הדלתון ע\"פ הנתונים המסומנים‪:‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-023",
+      "source_page": null,
+      "text": "‫משפט‪ :‬האלכסון ה_____ מחלק את הדלתון לשני משולשים חופפים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-024",
+      "source_page": null,
+      "text": "‫מסקנה‪ :‬בדלתון האלכסון ה_____ חוצה את זוויות ה_____‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-025",
+      "source_page": null,
+      "text": "‫בדלתון האלכסון ה ______ מחל את הדלתון לשני משולשים חופפים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-026",
+      "source_page": null,
+      "text": "‫האלכסון ה_______ מהווה בסיס לשני משולשים שווי שוקיים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-027",
+      "source_page": null,
+      "text": "‫שאלה ‪- 30‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-028",
+      "source_page": null,
+      "text": "‫• חשב את ההיקף של הדלתון ________________________________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-029",
+      "source_page": null,
+      "text": "‫הדלתון הוא מרובע שיש לו‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-030",
+      "source_page": null,
+      "text": "‫______________________________________________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-031",
+      "source_page": null,
+      "text": "‫‪ AC‬הוא האלכסון ה______ של הדלתון‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-032",
+      "source_page": null,
+      "text": "‫‪ BD‬הוא האלכסון ה _____ של הדלתון‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-033",
+      "source_page": null,
+      "text": "‫הנקודה ‪ E‬היא נקודת ה _____ של האלכסונים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-034",
+      "source_page": null,
+      "text": "‫נתבונן במשולש ‪ABD‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-035",
+      "source_page": null,
+      "text": "‫‪ ∆ABD‬הוא משולש _____ שוקיים‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-036",
+      "source_page": null,
+      "text": "‫) ____= ‪(AD‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-037",
+      "source_page": null,
+      "text": "‫במשולש שווה שוקיים חוצה זווית הראש הוא גם __וגם _____ לבסיס‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-038",
+      "source_page": null,
+      "text": "‫כלומר‪ :‬בדלתון ה _________ חוצה את ____________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-039",
+      "source_page": null,
+      "text": "‫בדלתון האלכסונים _______ זה לזה‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-040",
+      "source_page": null,
+      "text": "‫שאלה ‪ – 45‬סיכום תכונות‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-041",
+      "source_page": null,
+      "text": "‫האלכסון ה _____ בדלתון מחלק אותו לשני משולשים חופפים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-042",
+      "source_page": null,
+      "text": "‫האלכסון ה_____ בדלתון _______ את _____ הראש‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-043",
+      "source_page": null,
+      "text": "‫האלכסון ה_____ בדלתון _____ את האלכסון ה________‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-044",
+      "source_page": null,
+      "text": "‫בדלתון האלכסונים _________ זה לזה‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-045",
+      "source_page": null,
+      "text": "‫בדלתון זוויות ה ‪ ______ -‬שוות זו לזו‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-046",
+      "source_page": null,
+      "text": "‫שאלה ‪ - 46‬חשבו בכל אחד מהדלתונים את אורכי האלכסונים ע\"פ הנתונים‪:‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-047",
+      "source_page": null,
+      "text": "‫משפט‪ :‬בדלתון האלכסון הראשי מחלק את הדלתון‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-048",
+      "source_page": null,
+      "text": "‫לשני משולשים חופפים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-049",
+      "source_page": null,
+      "text": "‫נתון‪___________________________ :‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-050",
+      "source_page": null,
+      "text": "‫צ\"ל‪__________________________ :‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-051",
+      "source_page": null,
+      "text": "‫איך מוכיחים שמרובע הוא דלתון?‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-052",
+      "source_page": null,
+      "text": "‫משפט‪ :‬אם המרובע שני זוגות נפרדים של צלעות סמוכות שוות אז המרובע הוא‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-053",
+      "source_page": null,
+      "text": "‫הנקודות (‪ )2,5‬ו‪ )2,-2( -‬הן שני קודקודים נגדיים של דלתון‪ .‬הישר העובר‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-054",
+      "source_page": null,
+      "text": "‫בין הנקודות הוא האלכסון הראשי של הדלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-055",
+      "source_page": null,
+      "text": "‫א‪ .‬שרטטו דלתון לדוגמה‪ ,‬רשמו את שיעורי הנקודות של הקודקודים‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-056",
+      "source_page": null,
+      "text": "‫ב‪ .‬כמה דלתונים שונים אפשר לשרטט? הסבירו‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-057",
+      "source_page": null,
+      "text": "‫ג‪ .‬חשבו שטח הדלתון ששרטטתם‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-058",
+      "source_page": null,
+      "text": "‫‪ ROM‬הוא משולש שווה שוקיים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-059",
+      "source_page": null,
+      "text": "‫( ‪) OR = MR‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-060",
+      "source_page": null,
+      "text": "‫‪ RT‬חוצה זווית הראש‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-061",
+      "source_page": null,
+      "text": "‫הוכיחו כי‪:‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-062",
+      "source_page": null,
+      "text": "‫א) ‪Δ ONT ≅ Δ MAT‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-063",
+      "source_page": null,
+      "text": "‫ב) המרובע ‪ RNTA‬דלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-064",
+      "source_page": null,
+      "text": "‫‪ ABCD‬דלתון קמור ששטחו ‪ 84‬סמ\"ר‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-065",
+      "source_page": null,
+      "text": "‫‪ F‬נקודת מפגש האלכסונים‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-066",
+      "source_page": null,
+      "text": "‫‪ 14‬ס\"מ = ‪AC‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-067",
+      "source_page": null,
+      "text": "‫‪ 10‬ס\"מ = ‪BC‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-068",
+      "source_page": null,
+      "text": "‫א) חשבו את ‪ AF‬ואת ‪AD‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-069",
+      "source_page": null,
+      "text": "‫ב) הוכיחו ‪.AD ┴ AB‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-070",
+      "source_page": null,
+      "text": "‫‪ ABCD‬ריבוע‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-071",
+      "source_page": null,
+      "text": "‫‪≮B1 = ≮B2‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-072",
+      "source_page": null,
+      "text": "‫הוכיחו‪ FEAB :‬דלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-073",
+      "source_page": null,
+      "text": "‫‪ ABCD‬הוא דלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-074",
+      "source_page": null,
+      "text": "‫(‪)AB = AD , DC = BC‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-075",
+      "source_page": null,
+      "text": "‫נתון ‪CH = MC‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    },
+    {
+      "id": "deltoid-clean-076",
+      "source_page": null,
+      "text": "‫הוכיחו‪ AHCM :‬דלתון‪.‬‬",
+      "status": "cleaned_from_source",
+      "approved": false
+    }
+  ]
+}

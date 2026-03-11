@@ -50,3 +50,11 @@ This repository is a self-validating, RTL-first A4 worksheet engine.
 
 sources/geometry/deltoid/source.pdf
 
+
+---
+
+## Deltoid cleaning stage
+
+- לאחר חילוץ ראשוני מ-PDF יש ליצור קובץ ניקוי: `worksheets/deltoid/extracted/questions.cleaned.json`
+- רק ממנו מותר להתקדם לשלב בניית דפי A4
+- אין לבנות דפים ישירות מ־`questions.json` הגולמי
