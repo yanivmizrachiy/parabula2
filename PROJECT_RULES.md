@@ -110,3 +110,13 @@ sources/geometry/deltoid/source.pdf
   - `worksheets/deltoid/exact_assets/page-09-enhanced.png`
 - `worksheets/deltoid/exact_pages/page-09.html` חייב להצביע לגרסה המשופרת.
 - זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.
+
+---
+
+## Deep graphics upgrade for low-DPI source pages
+
+- כאשר עמודי מקור ב-PDF מכילים שרטוטים ברזולוציה נמוכה, מותר לבצע extraction מחדש ב-DPI גבוה יותר וליצור:
+  `page-XX-enhanced.png`
+- דפי exact הרלוונטיים חייבים להצביע לקובץ המשופר.
+- זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.
+- יש לשמור דוח ניתוח שמסמן אילו עמודים הוגדרו low-DPI ואילו שופרו.
