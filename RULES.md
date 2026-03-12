@@ -125,3 +125,12 @@ sources/geometry/deltoid/source.pdf
 - תיעוד QA נשמר ב:
   `worksheets/deltoid/VECTOR_QA.md`
 - לפני rebuild וקטורי חדש, חייב להיות inspection לעמוד הרלוונטי
+
+---
+
+## שלמות ספירת exact
+
+- exact pages = דפי מקור בלבד
+- vector pages = קטגוריה נפרדת
+- אסור לערבב ביניהם
+- לפני rebuild חדש חובה לבדוק שהספירה נשארת תקינה

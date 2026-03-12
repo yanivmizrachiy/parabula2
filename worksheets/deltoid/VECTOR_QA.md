@@ -5,8 +5,8 @@
 - vector pages: 2
 
 ## Completed / advanced pages
-- page 38 — vector or advanced treatment exists
-- page 42 — vector or advanced treatment exists
+- page 38 — vector page exists
+- page 42 — vector page exists
 
 ## High-priority next pages
 - page 56 — current state: enhanced
@@ -20,4 +20,4 @@
 - no inline CSS in vector HTML pages
 - external SVG preferred for rebuilt geometry
 - every rebuilt page must have a matching test
-- every significant change must update graphics-status.json
+- exact pages count should match the source PDF page count (60)

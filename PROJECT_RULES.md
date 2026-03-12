@@ -153,3 +153,13 @@ sources/geometry/deltoid/source.pdf
 - עמודים מועמדים לשדרוג חייבים להופיע גם ב:
   `worksheets/deltoid/VECTOR_QA.md`
 - כל שיפור גרפי משמעותי חייב לעדכן את שני הקבצים.
+
+---
+
+## Exact pages count integrity
+
+- דפי exact תחת `worksheets/deltoid/exact_pages/` חייבים לייצג את דפי המקור בלבד.
+- הספירה הצפויה לקובץ הדלתון היא 60 עמודים.
+- דפי vector אינם נספרים כ-exact pages.
+- כל שינוי במצב הגרפי חייב לעדכן את:
+  `worksheets/deltoid/graphics-status.json`
