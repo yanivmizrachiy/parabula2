@@ -1,0 +1,36 @@
+
+> test
+> node --test
+
+[32m✔ graphics analysis file exists [90m(1.945468ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.373229ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(2.459896ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.399427ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.215677ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(3.245729ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.515104ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.365261ms)[39m[39m
+[32m✔ graphics status json exists [90m(2.68125ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.278697ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.369427ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(1.515469ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.149271ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(4.969636ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(1.575677ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(3.325ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(1.742031ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(6.824532ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(3.113646ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.442396ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(155.399166ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.653646ms)[39m[39m
+[32m✔ rules files exist [90m(1.41151ms)[39m[39m
+[34mℹ tests 23[39m
+[34mℹ suites 0[39m
+[34mℹ pass 23[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 543.729687[39m

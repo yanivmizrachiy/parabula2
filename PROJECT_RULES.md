@@ -141,3 +141,15 @@ sources/geometry/deltoid/source.pdf
   - `worksheets/deltoid/exact_assets/page-42-enhanced.png`
   - `worksheets/deltoid/exact_pages/page-42.html`
 - זהו שיפור חזותי מבוסס מקור, לא שרטוט SVG חדש.
+
+---
+
+## Graphics status registry
+
+- כל מצב גרפי של דפי דלתון חייב להירשם בקובץ:
+  `worksheets/deltoid/graphics-status.json`
+- לכל עמוד חייב להיות state ברור:
+  `exact` / `enhanced` / `vector`
+- עמודים מועמדים לשדרוג חייבים להופיע גם ב:
+  `worksheets/deltoid/VECTOR_QA.md`
+- כל שיפור גרפי משמעותי חייב לעדכן את שני הקבצים.

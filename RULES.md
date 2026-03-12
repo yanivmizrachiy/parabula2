@@ -113,3 +113,15 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/exact_assets/page-42-enhanced.png`
 - זהו שיפור עומק חזותי מתוך המקור
 - אין להציג זאת כווקטור נקי חדש
+
+---
+
+## מרשם מצב גרפי
+
+- לכל עמוד בדלתון חייב להיות מצב גרפי ברור:
+  exact / enhanced / vector
+- מקור האמת הוא:
+  `worksheets/deltoid/graphics-status.json`
+- תיעוד QA נשמר ב:
+  `worksheets/deltoid/VECTOR_QA.md`
+- לפני rebuild וקטורי חדש, חייב להיות inspection לעמוד הרלוונטי
