@@ -174,3 +174,14 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/vector_pages/page-56-vector.html`
 - השרטוט נשמר תחת:
   `worksheets/deltoid/vector_assets/deltoid_page56_precise.svg`
+
+---
+
+## Page 41 precise vector rebuild
+
+- עמוד 41 נבנה מחדש על בסיס השרטוט האמיתי מהמקור:
+  משולש שווה־שוקיים ABC, התיכון AD לצלע BC, והנקודה E על המשך AD.
+- גרסת הווקטור נשמרת תחת:
+  `worksheets/deltoid/vector_pages/page-41-vector.html`
+- השרטוט נשמר תחת:
+  `worksheets/deltoid/vector_assets/deltoid_page41_precise.svg`

@@ -146,3 +146,13 @@ sources/geometry/deltoid/source.pdf
 - ב-B מסומנות שתי זוויות שוות
 - גרסת הווקטור נשמרת תחת:
   `worksheets/deltoid/vector_pages/page-56-vector.html`
+
+---
+
+## עמוד 41 נבנה מחדש לפי השרטוט האמיתי
+
+- העמוד מתאר משולש שווה־שוקיים ABC
+- AD הוא תיכון ל-BC
+- E על המשך AD
+- גרסת הווקטור נשמרת תחת:
+  `worksheets/deltoid/vector_pages/page-41-vector.html`
