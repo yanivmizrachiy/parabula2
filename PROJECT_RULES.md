@@ -163,3 +163,14 @@ sources/geometry/deltoid/source.pdf
 - דפי vector אינם נספרים כ-exact pages.
 - כל שינוי במצב הגרפי חייב לעדכן את:
   `worksheets/deltoid/graphics-status.json`
+
+---
+
+## Page 56 precise vector rebuild
+
+- עמוד 56 נבנה מחדש על בסיס השרטוט האמיתי מהמקור:
+  ריבוע ABCD, נקודה E על AD, נקודה F על DB, הקטעים EB ו-FB, ונתון EF ⟂ DB.
+- גרסת הווקטור נשמרת תחת:
+  `worksheets/deltoid/vector_pages/page-56-vector.html`
+- השרטוט נשמר תחת:
+  `worksheets/deltoid/vector_assets/deltoid_page56_precise.svg`

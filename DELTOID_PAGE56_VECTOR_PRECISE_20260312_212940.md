@@ -1,0 +1,75 @@
+# Deltoid page 56 precise vector rebuild
+
+- time: 2026-03-12T21:29:41+02:00
+
+## svg
+-rw-------. 1 u0_a440 u0_a440 1.6K Mar 12 21:29 worksheets/deltoid/vector_assets/deltoid_page56_precise.svg
+
+## html
+-rw-------. 1 u0_a440 u0_a440 1.8K Mar 12 21:29 worksheets/deltoid/vector_pages/page-56-vector.html
+
+## tests
+
+> test
+> node --test
+
+[32m✔ graphics analysis file exists [90m(8.23724ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.820833ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(4.170938ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.81125ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.403333ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(4.174791ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.70052ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.45625ms)[39m[39m
+[32m✔ graphics status json exists [90m(3.821406ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.341979ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.522656ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(6.427083ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.255052ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(0.277135ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(3.636667ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(1.583698ms)[39m[39m
+[32m✔ page 56 precise vector svg exists [90m(2.088073ms)[39m[39m
+[32m✔ page 56 precise vector html exists [90m(0.218593ms)[39m[39m
+[32m✔ page 56 precise vector html has no inline style [90m(1.172812ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(2.01875ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(0.337447ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(3.999479ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.536771ms)[39m[39m
+[32m✔ graphics status json exists [90m(3.734375ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.342032ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.539219ms)[39m[39m
+[32m✔ exact page count is 60 [90m(0.952813ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(1.058073ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(221.494896ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(2.241302ms)[39m[39m
+[32m✔ rules files exist [90m(2.001823ms)[39m[39m
+[34mℹ tests 31[39m
+[34mℹ suites 0[39m
+[34mℹ pass 31[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 734.187968[39m
+
+## git status
+ M PROJECT_RULES.md
+ M RULES.md
+ M tests/page42-vector.test.mjs
+ M worksheets/deltoid/VECTOR_QA.md
+ D worksheets/deltoid/exact_pages/page-09-vector.html
+ M worksheets/deltoid/graphics-status-build.out.json
+ M worksheets/deltoid/graphics-status.json
+?? DELTOID_PAGE56_VECTOR_PRECISE_20260312_212940.md
+?? analysis/
+?? deltoid_page56_vector_precise_test_output.txt
+?? tests/deltoid-page56-vector.test.mjs
+?? tools/advance_deltoid_graphics_system.sh
+?? tools/advance_deltoid_graphics_system_fix.sh
+?? tools/power_upgrade_deltoid_repo.sh
+?? tools/rebuild_deltoid_page56_svg_precise.sh
+?? tools/smart_cleanup_and_page56_inspect.sh
+?? worksheets/deltoid/vector_assets/deltoid_page56_precise.svg
+?? worksheets/deltoid/vector_pages/page-56-vector.html

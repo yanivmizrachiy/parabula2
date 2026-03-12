@@ -134,3 +134,15 @@ sources/geometry/deltoid/source.pdf
 - vector pages = קטגוריה נפרדת
 - אסור לערבב ביניהם
 - לפני rebuild חדש חובה לבדוק שהספירה נשארת תקינה
+
+---
+
+## עמוד 56 נבנה מחדש לפי השרטוט האמיתי
+
+- העמוד מתאר ריבוע ABCD
+- E על AD
+- F על DB
+- EF מאונך ל-DB
+- ב-B מסומנות שתי זוויות שוות
+- גרסת הווקטור נשמרת תחת:
+  `worksheets/deltoid/vector_pages/page-56-vector.html`
