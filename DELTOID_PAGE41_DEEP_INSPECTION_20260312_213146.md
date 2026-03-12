@@ -1,0 +1,89 @@
+# Deltoid page 41 deep inspection
+
+- time: 2026-03-12T21:32:02+02:00
+
+## files
+worksheets/deltoid/page41_inspection/page-41-enhanced.png
+worksheets/deltoid/page41_inspection/page-41-images.txt
+worksheets/deltoid/page41_inspection/page-41-lines.png
+worksheets/deltoid/page41_inspection/page-41-raw.png
+worksheets/deltoid/page41_inspection/page-41-summary.json
+worksheets/deltoid/page41_inspection/page-41.txt
+worksheets/deltoid/page41_inspection/page41-41.png
+
+## image list
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+  41     0 image     609   342  rgb     3   8  image  no       248  0    82    82 25.4K 4.2%
+
+## extracted text
+‫שאלה ‪77‬‬
+
+‫ריכוז שאלות דלתון לכיתה ט'‬
+
+‫‪41‬‬
+
+
+## tests
+
+> test
+> node --test
+
+[32m✔ graphics analysis file exists [90m(4.367448ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(1.050938ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(2.876094ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.61776ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.279219ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(8.865521ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.862135ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.555104ms)[39m[39m
+[32m✔ graphics status json exists [90m(4.305729ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.379271ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.500833ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(5.634479ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(1.038073ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(3.239219ms)[39m[39m
+[32m✔ page 41 inspection assets exist [90m(4.488906ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(2.355261ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(0.471302ms)[39m[39m
+[32m✔ page 56 precise vector svg exists [90m(7.152812ms)[39m[39m
+[32m✔ page 56 precise vector html exists [90m(0.396302ms)[39m[39m
+[32m✔ page 56 precise vector html has no inline style [90m(14.803906ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(2.817448ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(0.769115ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(4.795052ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.72698ms)[39m[39m
+[32m✔ graphics status json exists [90m(6.019791ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.448958ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.548698ms)[39m[39m
+[32m✔ exact page count is 60 [90m(1.825885ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(2.704687ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(332.488229ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(2.630885ms)[39m[39m
+[32m✔ rules files exist [90m(3.96125ms)[39m[39m
+[34mℹ tests 32[39m
+[34mℹ suites 0[39m
+[34mℹ pass 32[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 1006.759999[39m
+
+## git status
+ M tests/page42-vector.test.mjs
+ M worksheets/deltoid/VECTOR_QA.md
+ D worksheets/deltoid/exact_pages/page-09-vector.html
+ M worksheets/deltoid/graphics-status.json
+?? DELTOID_PAGE41_DEEP_INSPECTION_20260312_213146.md
+?? analysis/
+?? deltoid_page41_inspection_test_output.txt
+?? tests/deltoid-page41-inspection.test.mjs
+?? tools/advance_deltoid_graphics_system.sh
+?? tools/advance_deltoid_graphics_system_fix.sh
+?? tools/inspect_page41_deep.sh
+?? tools/power_upgrade_deltoid_repo.sh
+?? tools/rebuild_deltoid_page56_svg_precise.sh
+?? tools/smart_cleanup_and_page56_inspect.sh
+?? worksheets/deltoid/page41_inspection/
