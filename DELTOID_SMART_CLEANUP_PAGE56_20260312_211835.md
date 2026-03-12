@@ -1,3 +1,9 @@
+# Deltoid smart cleanup and page 56 inspection
+
+- time: 2026-03-12T21:18:47+02:00
+- source: sources/geometry/deltoid/source.pdf
+
+## graphics status
 {
   "topic": "דלתון",
   "source": "sources/geometry/deltoid/source.pdf",
@@ -556,3 +562,103 @@
     }
   ]
 }
+## vector qa
+# VECTOR_QA — דלתון
+
+- source pdf pages: 60
+- exact pages: 60
+- enhanced assets: 31
+- vector pages: 2
+
+## Completed / advanced pages
+- page 38 — vector page exists
+- page 42 — vector page exists
+
+## High-priority next pages
+- page 56 — current state: enhanced
+- page 41 — current state: enhanced
+- page 5 — current state: enhanced
+- page 63 — current state: missing
+- page 72 — current state: missing
+- page 78 — current state: missing
+- page 84 — current state: missing
+- page 91 — current state: missing
+
+## QA rules
+- no inline CSS in vector HTML pages
+- external SVG preferred for rebuilt geometry
+- every rebuilt page must have a matching test
+- exact pages count must equal source PDF page count (60)
+
+## archived exact pages
+worksheets/deltoid/exact_pages_archive/page-09-vector.html
+worksheets/deltoid/exact_pages_archive/page-09.backup.html
+
+## page 56 inspection files
+worksheets/deltoid/page56_inspection/page-56-enhanced.png
+worksheets/deltoid/page56_inspection/page-56-images.txt
+worksheets/deltoid/page56_inspection/page-56-lines.png
+worksheets/deltoid/page56_inspection/page-56-raw.png
+worksheets/deltoid/page56_inspection/page-56.txt
+worksheets/deltoid/page56_inspection/page56-56.png
+
+## tests
+
+> test
+> node --test
+
+[32m✔ graphics analysis file exists [90m(1.567344ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.41724ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(9.825938ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.697708ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.336354ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(4.520469ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.57375ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.405313ms)[39m[39m
+[32m✔ graphics status json exists [90m(1.57125ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.244219ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.181302ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(3.32526ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.354115ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(0.388594ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(8.506354ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(0.632344ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(3.524062ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(0.586354ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(3.167448ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.433073ms)[39m[39m
+[32m✔ graphics status json exists [90m(1.670104ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.140886ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.176094ms)[39m[39m
+[32m✔ exact page count is 60 [90m(0.437604ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(5.492188ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(186.293021ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.735625ms)[39m[39m
+[32m✔ rules files exist [90m(1.467396ms)[39m[39m
+[34mℹ tests 28[39m
+[34mℹ suites 0[39m
+[34mℹ pass 28[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 595.624166[39m
+
+## git status
+ M deltoid_power_upgrade_test_output.txt
+ M tests/deltoid-repo-qa.test.mjs
+ M tests/page42-vector.test.mjs
+ M tools/rebuild_graphics_status_precise.py
+ M worksheets/deltoid/VECTOR_QA.md
+ D worksheets/deltoid/exact_pages/page-09-vector.html
+ M worksheets/deltoid/graphics-status-build.out.json
+ M worksheets/deltoid/graphics-status.json
+ M worksheets/deltoid/page56_inspection/page-56-lines.png
+?? DELTOID_SMART_CLEANUP_PAGE56_20260312_211835.md
+?? analysis/
+?? tools/advance_deltoid_graphics_system.sh
+?? tools/advance_deltoid_graphics_system_fix.sh
+?? tools/power_upgrade_deltoid_repo.sh
+?? tools/smart_cleanup_and_page56_inspect.sh
+?? worksheets/deltoid/exact_pages_archive/

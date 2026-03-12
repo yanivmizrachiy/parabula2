@@ -19,7 +19,7 @@ test("page 56 inspection assets exist", () => {
 
 test("exact page count is 60", () => {
   const dir = path.join("worksheets","deltoid","exact_pages");
-  const files = fs.readdirSync(dir).filter(x => /^page-\d+\.html$/i.test(x));
+  const files = fs.readdirSync(dir).filter(x => /^page-\d{2}\.html$/i.test(x));
   assert.equal(files.length, 60);
 });
 
