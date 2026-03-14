@@ -1,0 +1,43 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "chapter": "chapter_01_done_pages",
+  "page_count": 5,
+  "records": [
+    {
+      "page": 9,
+      "title": "עמוד 09 — גרסה מטופלת",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-09.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_01_done_pages/pages/page-09.html"
+    },
+    {
+      "page": 38,
+      "title": "עמוד 38 — גרסה מטופלת",
+      "source_kind": "vector-html",
+      "source_path": "worksheets/deltoid/vector_pages/page-38.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_01_done_pages/pages/page-38.html"
+    },
+    {
+      "page": 41,
+      "title": "עמוד 41 — גרסה מטופלת",
+      "source_kind": "vector-html",
+      "source_path": "worksheets/deltoid/vector_pages/page-41-vector.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_01_done_pages/pages/page-41.html"
+    },
+    {
+      "page": 42,
+      "title": "עמוד 42 — גרסה מטופלת",
+      "source_kind": "vector-html",
+      "source_path": "worksheets/deltoid/vector_pages/page-42-vector.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_01_done_pages/pages/page-42.html"
+    },
+    {
+      "page": 56,
+      "title": "עמוד 56 — גרסה מטופלת",
+      "source_kind": "vector-html",
+      "source_path": "worksheets/deltoid/vector_pages/page-56-vector.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_01_done_pages/pages/page-56.html"
+    }
+  ]
+}

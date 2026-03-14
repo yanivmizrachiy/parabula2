@@ -235,3 +235,14 @@ sources/geometry/deltoid/source.pdf
   - rewrite-later
   - manual-review
 - התוכנית הזו היא מקור האמת לסדר העבודה על בניית הספר החדש
+
+---
+
+## Deltoid chapter 01 done pages
+
+- יש לבנות פרק ראשון אמיתי מתוך העמודים שכבר טופלו:
+  9, 38, 41, 42, 56
+- הפרק נשמר תחת:
+  `worksheets/deltoid/chapters/chapter_01_done_pages/`
+- כל עמוד פרק עוטף את המקור הטוב ביותר הזמין:
+  vector / exact / enhanced / inventory
