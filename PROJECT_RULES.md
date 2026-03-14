@@ -246,3 +246,13 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/chapters/chapter_01_done_pages/`
 - כל עמוד פרק עוטף את המקור הטוב ביותר הזמין:
   vector / exact / enhanced / inventory
+
+---
+
+## Deltoid chapter 02 vector next
+
+- יש לבנות פרק שני מתוך bucket:
+  `vector-next`
+- הפרק נשמר תחת:
+  `worksheets/deltoid/chapters/chapter_02_vector_next/`
+- כל עמוד פרק עוטף את המקור הטוב ביותר הזמין

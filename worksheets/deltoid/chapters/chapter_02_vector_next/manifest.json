@@ -1,0 +1,93 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "chapter": "chapter_02_vector_next",
+  "page_count": 12,
+  "source_bucket": "vector-next",
+  "records": [
+    {
+      "page": 7,
+      "title": "עמוד 07 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-07.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-07.html"
+    },
+    {
+      "page": 8,
+      "title": "עמוד 08 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-08.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-08.html"
+    },
+    {
+      "page": 10,
+      "title": "עמוד 10 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-10.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-10.html"
+    },
+    {
+      "page": 11,
+      "title": "עמוד 11 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-11.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-11.html"
+    },
+    {
+      "page": 13,
+      "title": "עמוד 13 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-13.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-13.html"
+    },
+    {
+      "page": 15,
+      "title": "עמוד 15 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-15.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-15.html"
+    },
+    {
+      "page": 17,
+      "title": "עמוד 17 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-17.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-17.html"
+    },
+    {
+      "page": 21,
+      "title": "עמוד 21 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-21.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-21.html"
+    },
+    {
+      "page": 24,
+      "title": "עמוד 24 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-24.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-24.html"
+    },
+    {
+      "page": 52,
+      "title": "עמוד 52 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-52.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-52.html"
+    },
+    {
+      "page": 55,
+      "title": "עמוד 55 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-55.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-55.html"
+    },
+    {
+      "page": 60,
+      "title": "עמוד 60 — פרק 02 vector-next",
+      "source_kind": "exact-html",
+      "source_path": "worksheets/deltoid/exact_pages/page-60.html",
+      "chapter_page": "worksheets/deltoid/chapters/chapter_02_vector_next/pages/page-60.html"
+    }
+  ]
+}
