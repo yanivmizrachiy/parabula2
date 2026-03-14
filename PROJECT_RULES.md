@@ -197,3 +197,15 @@ sources/geometry/deltoid/source.pdf
   - clean text
   - meta json
 - inventory זה הוא בסיס העבודה לבניית ספר אחיד חדש
+
+---
+
+## Deltoid image inventory
+
+- הקובץ נחשב image-first PDF
+- יש לשמור inventory גרפי מלא תחת:
+  `worksheets/deltoid/image_inventory/`
+- לכל עמוד חייבים להיות:
+  - page png
+  - thumb png
+- gallery.html הוא כלי העבודה הראשי למיפוי ויזואלי של הספר

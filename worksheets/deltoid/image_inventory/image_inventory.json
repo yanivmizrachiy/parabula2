@@ -1,0 +1,428 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "source_pdf": "sources/geometry/deltoid/source.pdf",
+  "page_count": 60,
+  "records": [
+    {
+      "page": 1,
+      "image": "worksheets/deltoid/image_inventory/pages/page-01.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-01.png",
+      "size_bytes": 248984,
+      "thumb_exists": true
+    },
+    {
+      "page": 2,
+      "image": "worksheets/deltoid/image_inventory/pages/page-02.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-02.png",
+      "size_bytes": 342819,
+      "thumb_exists": true
+    },
+    {
+      "page": 3,
+      "image": "worksheets/deltoid/image_inventory/pages/page-03.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-03.png",
+      "size_bytes": 319997,
+      "thumb_exists": true
+    },
+    {
+      "page": 4,
+      "image": "worksheets/deltoid/image_inventory/pages/page-04.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-04.png",
+      "size_bytes": 279409,
+      "thumb_exists": true
+    },
+    {
+      "page": 5,
+      "image": "worksheets/deltoid/image_inventory/pages/page-05.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-05.png",
+      "size_bytes": 246519,
+      "thumb_exists": true
+    },
+    {
+      "page": 6,
+      "image": "worksheets/deltoid/image_inventory/pages/page-06.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-06.png",
+      "size_bytes": 311377,
+      "thumb_exists": true
+    },
+    {
+      "page": 7,
+      "image": "worksheets/deltoid/image_inventory/pages/page-07.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-07.png",
+      "size_bytes": 312858,
+      "thumb_exists": true
+    },
+    {
+      "page": 8,
+      "image": "worksheets/deltoid/image_inventory/pages/page-08.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-08.png",
+      "size_bytes": 255778,
+      "thumb_exists": true
+    },
+    {
+      "page": 9,
+      "image": "worksheets/deltoid/image_inventory/pages/page-09.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-09.png",
+      "size_bytes": 389759,
+      "thumb_exists": true
+    },
+    {
+      "page": 10,
+      "image": "worksheets/deltoid/image_inventory/pages/page-10.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-10.png",
+      "size_bytes": 378630,
+      "thumb_exists": true
+    },
+    {
+      "page": 11,
+      "image": "worksheets/deltoid/image_inventory/pages/page-11.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-11.png",
+      "size_bytes": 345010,
+      "thumb_exists": true
+    },
+    {
+      "page": 12,
+      "image": "worksheets/deltoid/image_inventory/pages/page-12.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-12.png",
+      "size_bytes": 245656,
+      "thumb_exists": true
+    },
+    {
+      "page": 13,
+      "image": "worksheets/deltoid/image_inventory/pages/page-13.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-13.png",
+      "size_bytes": 312713,
+      "thumb_exists": true
+    },
+    {
+      "page": 14,
+      "image": "worksheets/deltoid/image_inventory/pages/page-14.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-14.png",
+      "size_bytes": 304544,
+      "thumb_exists": true
+    },
+    {
+      "page": 15,
+      "image": "worksheets/deltoid/image_inventory/pages/page-15.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-15.png",
+      "size_bytes": 285888,
+      "thumb_exists": true
+    },
+    {
+      "page": 16,
+      "image": "worksheets/deltoid/image_inventory/pages/page-16.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-16.png",
+      "size_bytes": 284489,
+      "thumb_exists": true
+    },
+    {
+      "page": 17,
+      "image": "worksheets/deltoid/image_inventory/pages/page-17.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-17.png",
+      "size_bytes": 313098,
+      "thumb_exists": true
+    },
+    {
+      "page": 18,
+      "image": "worksheets/deltoid/image_inventory/pages/page-18.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-18.png",
+      "size_bytes": 113758,
+      "thumb_exists": true
+    },
+    {
+      "page": 19,
+      "image": "worksheets/deltoid/image_inventory/pages/page-19.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-19.png",
+      "size_bytes": 298827,
+      "thumb_exists": true
+    },
+    {
+      "page": 20,
+      "image": "worksheets/deltoid/image_inventory/pages/page-20.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-20.png",
+      "size_bytes": 172605,
+      "thumb_exists": true
+    },
+    {
+      "page": 21,
+      "image": "worksheets/deltoid/image_inventory/pages/page-21.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-21.png",
+      "size_bytes": 283112,
+      "thumb_exists": true
+    },
+    {
+      "page": 22,
+      "image": "worksheets/deltoid/image_inventory/pages/page-22.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-22.png",
+      "size_bytes": 464231,
+      "thumb_exists": true
+    },
+    {
+      "page": 23,
+      "image": "worksheets/deltoid/image_inventory/pages/page-23.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-23.png",
+      "size_bytes": 235182,
+      "thumb_exists": true
+    },
+    {
+      "page": 24,
+      "image": "worksheets/deltoid/image_inventory/pages/page-24.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-24.png",
+      "size_bytes": 371100,
+      "thumb_exists": true
+    },
+    {
+      "page": 25,
+      "image": "worksheets/deltoid/image_inventory/pages/page-25.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-25.png",
+      "size_bytes": 290295,
+      "thumb_exists": true
+    },
+    {
+      "page": 26,
+      "image": "worksheets/deltoid/image_inventory/pages/page-26.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-26.png",
+      "size_bytes": 460914,
+      "thumb_exists": true
+    },
+    {
+      "page": 27,
+      "image": "worksheets/deltoid/image_inventory/pages/page-27.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-27.png",
+      "size_bytes": 388467,
+      "thumb_exists": true
+    },
+    {
+      "page": 28,
+      "image": "worksheets/deltoid/image_inventory/pages/page-28.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-28.png",
+      "size_bytes": 391559,
+      "thumb_exists": true
+    },
+    {
+      "page": 29,
+      "image": "worksheets/deltoid/image_inventory/pages/page-29.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-29.png",
+      "size_bytes": 144338,
+      "thumb_exists": true
+    },
+    {
+      "page": 30,
+      "image": "worksheets/deltoid/image_inventory/pages/page-30.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-30.png",
+      "size_bytes": 390455,
+      "thumb_exists": true
+    },
+    {
+      "page": 31,
+      "image": "worksheets/deltoid/image_inventory/pages/page-31.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-31.png",
+      "size_bytes": 96255,
+      "thumb_exists": true
+    },
+    {
+      "page": 32,
+      "image": "worksheets/deltoid/image_inventory/pages/page-32.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-32.png",
+      "size_bytes": 271672,
+      "thumb_exists": true
+    },
+    {
+      "page": 33,
+      "image": "worksheets/deltoid/image_inventory/pages/page-33.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-33.png",
+      "size_bytes": 222246,
+      "thumb_exists": true
+    },
+    {
+      "page": 34,
+      "image": "worksheets/deltoid/image_inventory/pages/page-34.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-34.png",
+      "size_bytes": 258938,
+      "thumb_exists": true
+    },
+    {
+      "page": 35,
+      "image": "worksheets/deltoid/image_inventory/pages/page-35.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-35.png",
+      "size_bytes": 296438,
+      "thumb_exists": true
+    },
+    {
+      "page": 36,
+      "image": "worksheets/deltoid/image_inventory/pages/page-36.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-36.png",
+      "size_bytes": 235776,
+      "thumb_exists": true
+    },
+    {
+      "page": 37,
+      "image": "worksheets/deltoid/image_inventory/pages/page-37.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-37.png",
+      "size_bytes": 157579,
+      "thumb_exists": true
+    },
+    {
+      "page": 38,
+      "image": "worksheets/deltoid/image_inventory/pages/page-38.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-38.png",
+      "size_bytes": 172234,
+      "thumb_exists": true
+    },
+    {
+      "page": 39,
+      "image": "worksheets/deltoid/image_inventory/pages/page-39.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-39.png",
+      "size_bytes": 170572,
+      "thumb_exists": true
+    },
+    {
+      "page": 40,
+      "image": "worksheets/deltoid/image_inventory/pages/page-40.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-40.png",
+      "size_bytes": 211117,
+      "thumb_exists": true
+    },
+    {
+      "page": 41,
+      "image": "worksheets/deltoid/image_inventory/pages/page-41.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-41.png",
+      "size_bytes": 181313,
+      "thumb_exists": true
+    },
+    {
+      "page": 42,
+      "image": "worksheets/deltoid/image_inventory/pages/page-42.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-42.png",
+      "size_bytes": 162524,
+      "thumb_exists": true
+    },
+    {
+      "page": 43,
+      "image": "worksheets/deltoid/image_inventory/pages/page-43.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-43.png",
+      "size_bytes": 77156,
+      "thumb_exists": true
+    },
+    {
+      "page": 44,
+      "image": "worksheets/deltoid/image_inventory/pages/page-44.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-44.png",
+      "size_bytes": 160112,
+      "thumb_exists": true
+    },
+    {
+      "page": 45,
+      "image": "worksheets/deltoid/image_inventory/pages/page-45.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-45.png",
+      "size_bytes": 195366,
+      "thumb_exists": true
+    },
+    {
+      "page": 46,
+      "image": "worksheets/deltoid/image_inventory/pages/page-46.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-46.png",
+      "size_bytes": 206840,
+      "thumb_exists": true
+    },
+    {
+      "page": 47,
+      "image": "worksheets/deltoid/image_inventory/pages/page-47.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-47.png",
+      "size_bytes": 170872,
+      "thumb_exists": true
+    },
+    {
+      "page": 48,
+      "image": "worksheets/deltoid/image_inventory/pages/page-48.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-48.png",
+      "size_bytes": 198143,
+      "thumb_exists": true
+    },
+    {
+      "page": 49,
+      "image": "worksheets/deltoid/image_inventory/pages/page-49.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-49.png",
+      "size_bytes": 228826,
+      "thumb_exists": true
+    },
+    {
+      "page": 50,
+      "image": "worksheets/deltoid/image_inventory/pages/page-50.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-50.png",
+      "size_bytes": 230402,
+      "thumb_exists": true
+    },
+    {
+      "page": 51,
+      "image": "worksheets/deltoid/image_inventory/pages/page-51.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-51.png",
+      "size_bytes": 273166,
+      "thumb_exists": true
+    },
+    {
+      "page": 52,
+      "image": "worksheets/deltoid/image_inventory/pages/page-52.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-52.png",
+      "size_bytes": 97765,
+      "thumb_exists": true
+    },
+    {
+      "page": 53,
+      "image": "worksheets/deltoid/image_inventory/pages/page-53.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-53.png",
+      "size_bytes": 141130,
+      "thumb_exists": true
+    },
+    {
+      "page": 54,
+      "image": "worksheets/deltoid/image_inventory/pages/page-54.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-54.png",
+      "size_bytes": 184089,
+      "thumb_exists": true
+    },
+    {
+      "page": 55,
+      "image": "worksheets/deltoid/image_inventory/pages/page-55.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-55.png",
+      "size_bytes": 83499,
+      "thumb_exists": true
+    },
+    {
+      "page": 56,
+      "image": "worksheets/deltoid/image_inventory/pages/page-56.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-56.png",
+      "size_bytes": 96768,
+      "thumb_exists": true
+    },
+    {
+      "page": 57,
+      "image": "worksheets/deltoid/image_inventory/pages/page-57.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-57.png",
+      "size_bytes": 73002,
+      "thumb_exists": true
+    },
+    {
+      "page": 58,
+      "image": "worksheets/deltoid/image_inventory/pages/page-58.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-58.png",
+      "size_bytes": 89961,
+      "thumb_exists": true
+    },
+    {
+      "page": 59,
+      "image": "worksheets/deltoid/image_inventory/pages/page-59.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-59.png",
+      "size_bytes": 95428,
+      "thumb_exists": true
+    },
+    {
+      "page": 60,
+      "image": "worksheets/deltoid/image_inventory/pages/page-60.png",
+      "thumb": "worksheets/deltoid/image_inventory/thumbs/page-60.png",
+      "size_bytes": 69475,
+      "thumb_exists": true
+    }
+  ]
+}

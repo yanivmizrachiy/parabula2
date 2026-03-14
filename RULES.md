@@ -165,3 +165,11 @@ sources/geometry/deltoid/source.pdf
 - אין לבנות ספר חדש לפני שיש inventory מלא של העמודים
 - כל בנייה עתידית חייבת להישען על:
   `worksheets/deltoid/book_inventory/book_inventory.json`
+
+---
+
+## אינדקס גרפי לדלתון
+
+- כאשר חילוץ הטקסט חלש, עובדים מתוך תמונות העמודים
+- יש להפיק לכל 60 העמודים תמונת PNG ותמונה מוקטנת
+- העבודה על שחזור הספר תתבסס קודם על gallery חזותי ולא על text extraction
