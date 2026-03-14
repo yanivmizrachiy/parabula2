@@ -1,0 +1,69 @@
+# DELTOID BOOK STATUS
+
+- source: sources/geometry/deltoid/source.pdf
+- page_count: 60
+- total_question_markers_detected: 0
+- pages_with_images: 59
+- pages_with_question_markers: 0
+
+## Pages overview
+- page 01 | chars=213 | lines=6 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 02 | chars=188 | lines=6 | question_markers=0 | images=5 | categories=דלתון, היקף | qnums=-
+- page 03 | chars=363 | lines=12 | question_markers=0 | images=4 | categories=דלתון, אלכסונים | qnums=-
+- page 04 | chars=179 | lines=6 | question_markers=0 | images=2 | categories=דלתון, אלכסונים, זוויות | qnums=-
+- page 05 | chars=58 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 06 | chars=306 | lines=8 | question_markers=0 | images=5 | categories=דלתון, אלכסונים, זוויות | qnums=-
+- page 07 | chars=82 | lines=6 | question_markers=0 | images=9 | categories=דלתון | qnums=-
+- page 08 | chars=118 | lines=5 | question_markers=0 | images=4 | categories=דלתון, זוויות | qnums=-
+- page 09 | chars=167 | lines=5 | question_markers=0 | images=4 | categories=דלתון, אלכסונים, זוויות | qnums=-
+- page 10 | chars=71 | lines=5 | question_markers=0 | images=5 | categories=דלתון | qnums=-
+- page 11 | chars=71 | lines=5 | question_markers=0 | images=3 | categories=דלתון | qnums=-
+- page 12 | chars=192 | lines=7 | question_markers=0 | images=2 | categories=דלתון, אלכסונים | qnums=-
+- page 13 | chars=73 | lines=5 | question_markers=0 | images=4 | categories=דלתון | qnums=-
+- page 14 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 15 | chars=59 | lines=4 | question_markers=0 | images=3 | categories=דלתון | qnums=-
+- page 16 | chars=134 | lines=6 | question_markers=0 | images=4 | categories=דלתון, היקף | qnums=-
+- page 17 | chars=71 | lines=5 | question_markers=0 | images=3 | categories=דלתון | qnums=-
+- page 18 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 19 | chars=493 | lines=16 | question_markers=0 | images=4 | categories=דלתון, אלכסונים, זוויות | qnums=-
+- page 20 | chars=374 | lines=9 | question_markers=0 | images=1 | categories=דלתון, אלכסונים, זוויות | qnums=-
+- page 21 | chars=59 | lines=4 | question_markers=0 | images=3 | categories=דלתון | qnums=-
+- page 22 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 23 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 24 | chars=71 | lines=5 | question_markers=0 | images=4 | categories=דלתון | qnums=-
+- page 25 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 26 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 27 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 28 | chars=59 | lines=4 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 29 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 30 | chars=47 | lines=3 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 31 | chars=218 | lines=10 | question_markers=0 | images=1 | categories=דלתון, אלכסונים | qnums=-
+- page 32 | chars=171 | lines=7 | question_markers=0 | images=2 | categories=דלתון | qnums=-
+- page 33 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 34 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 35 | chars=147 | lines=8 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 36 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 37 | chars=147 | lines=8 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 38 | chars=147 | lines=8 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 39 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 40 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 41 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 42 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 43 | chars=326 | lines=9 | question_markers=0 | images=0 | categories=דלתון, אלכסונים, שטח | qnums=-
+- page 44 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 45 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 46 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 47 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 48 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 49 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 50 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 51 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 52 | chars=234 | lines=17 | question_markers=0 | images=17 | categories=דלתון, זוויות | qnums=-
+- page 53 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 54 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 55 | chars=232 | lines=14 | question_markers=0 | images=10 | categories=דלתון, שטח | qnums=-
+- page 56 | chars=117 | lines=7 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 57 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 58 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 59 | chars=47 | lines=3 | question_markers=0 | images=1 | categories=דלתון | qnums=-
+- page 60 | chars=172 | lines=13 | question_markers=0 | images=12 | categories=דלתון | qnums=-

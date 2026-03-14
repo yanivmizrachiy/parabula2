@@ -185,3 +185,15 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/vector_pages/page-41-vector.html`
 - השרטוט נשמר תחת:
   `worksheets/deltoid/vector_assets/deltoid_page41_precise.svg`
+
+---
+
+## Deltoid book inventory
+
+- יש לשמור inventory מלא של הספר תחת:
+  `worksheets/deltoid/book_inventory/`
+- לכל עמוד חייבים להיות:
+  - raw text
+  - clean text
+  - meta json
+- inventory זה הוא בסיס העבודה לבניית ספר אחיד חדש

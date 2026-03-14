@@ -1,0 +1,52 @@
+
+> test
+> node --test
+
+[32m✔ book inventory json exists [90m(2.746667ms)[39m[39m
+[32m✔ book status markdown exists [90m(0.263854ms)[39m[39m
+[32m✔ all 60 page text files exist [90m(0.836406ms)[39m[39m
+[32m✔ inventory page count is 60 [90m(0.613229ms)[39m[39m
+[32m✔ graphics analysis file exists [90m(2.998855ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.65ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(2.003438ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.410261ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.220261ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(1.906094ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.329635ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.20375ms)[39m[39m
+[32m✔ graphics status json exists [90m(2.924948ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.297916ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.429531ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(2.846042ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.279115ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(4.913437ms)[39m[39m
+[32m✔ page 41 inspection assets exist [90m(3.121719ms)[39m[39m
+[32m✔ page 41 precise vector svg exists [90m(1.538594ms)[39m[39m
+[32m✔ page 41 precise vector html exists [90m(0.153594ms)[39m[39m
+[32m✔ page 41 precise vector html has no inline style [90m(2.82125ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(1.500052ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(5.552239ms)[39m[39m
+[32m✔ page 56 precise vector svg exists [90m(2.096823ms)[39m[39m
+[32m✔ page 56 precise vector html exists [90m(0.174375ms)[39m[39m
+[32m✔ page 56 precise vector html has no inline style [90m(2.978541ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(1.55125ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(2.851198ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(1.806302ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.28375ms)[39m[39m
+[32m✔ graphics status json exists [90m(1.621146ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.139062ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.173907ms)[39m[39m
+[32m✔ exact page count is 60 [90m(0.404739ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(0.914271ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(222.720469ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.666927ms)[39m[39m
+[32m✔ rules files exist [90m(1.435365ms)[39m[39m
+[34mℹ tests 39[39m
+[34mℹ suites 0[39m
+[34mℹ pass 39[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 762.973125[39m

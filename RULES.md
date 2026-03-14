@@ -156,3 +156,12 @@ sources/geometry/deltoid/source.pdf
 - E על המשך AD
 - גרסת הווקטור נשמרת תחת:
   `worksheets/deltoid/vector_pages/page-41-vector.html`
+
+---
+
+## אינדקס ספר דלתון
+
+- לכל 60 העמודים חייב להיות קטלוג מסודר
+- אין לבנות ספר חדש לפני שיש inventory מלא של העמודים
+- כל בנייה עתידית חייבת להישען על:
+  `worksheets/deltoid/book_inventory/book_inventory.json`
