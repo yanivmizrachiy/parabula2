@@ -1,0 +1,1126 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "page_count": 60,
+  "counts": {
+    "done": 5,
+    "vector-next": 12,
+    "image-first-next": 29,
+    "rewrite-later": 9,
+    "manual-review": 5
+  },
+  "buckets": {
+    "done": [
+      9,
+      38,
+      41,
+      42,
+      56
+    ],
+    "vector-next": [
+      7,
+      8,
+      10,
+      11,
+      13,
+      15,
+      17,
+      21,
+      24,
+      52,
+      55,
+      60
+    ],
+    "image-first-next": [
+      5,
+      14,
+      18,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      33,
+      34,
+      36,
+      39,
+      40,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      54,
+      57,
+      58,
+      59
+    ],
+    "rewrite-later": [
+      1,
+      4,
+      12,
+      20,
+      31,
+      32,
+      35,
+      37,
+      43
+    ],
+    "manual-review": [
+      2,
+      3,
+      6,
+      16,
+      19
+    ]
+  },
+  "records": [
+    {
+      "page": 9,
+      "kind": "mixed",
+      "graphics_state": "enhanced",
+      "verified": true,
+      "current_priority": "done",
+      "recommended_action": "already-treated",
+      "final_stage": "done",
+      "reason": "already treated in repo",
+      "image_count": 4,
+      "char_count": 167,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "זוויות"
+      ],
+      "execution_rank": 0
+    },
+    {
+      "page": 38,
+      "kind": "text-heavy",
+      "graphics_state": "vector",
+      "verified": true,
+      "current_priority": "done",
+      "recommended_action": "already-treated",
+      "final_stage": "done",
+      "reason": "already treated in repo",
+      "image_count": 1,
+      "char_count": 147,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 0
+    },
+    {
+      "page": 41,
+      "kind": "worksheet-graphic",
+      "graphics_state": "vector",
+      "verified": false,
+      "current_priority": "done",
+      "recommended_action": "already-treated",
+      "final_stage": "done",
+      "reason": "already treated in repo",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 0
+    },
+    {
+      "page": 42,
+      "kind": "worksheet-graphic",
+      "graphics_state": "vector",
+      "verified": true,
+      "current_priority": "done",
+      "recommended_action": "already-treated",
+      "final_stage": "done",
+      "reason": "already treated in repo",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 0
+    },
+    {
+      "page": 56,
+      "kind": "mixed",
+      "graphics_state": "vector",
+      "verified": false,
+      "current_priority": "done",
+      "recommended_action": "already-treated",
+      "final_stage": "done",
+      "reason": "already treated in repo",
+      "image_count": 1,
+      "char_count": 117,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 0
+    },
+    {
+      "page": 7,
+      "kind": "graphic-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "manual-visual-rebuild",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 9,
+      "char_count": 82,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 8,
+      "kind": "diagram-page",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 4,
+      "char_count": 118,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "זוויות"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 10,
+      "kind": "diagram-page",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 5,
+      "char_count": 71,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 11,
+      "kind": "diagram-page",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 3,
+      "char_count": 71,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 13,
+      "kind": "diagram-page",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 4,
+      "char_count": 73,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 15,
+      "kind": "diagram-page",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 3,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 17,
+      "kind": "diagram-page",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 3,
+      "char_count": 71,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 21,
+      "kind": "diagram-page",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 3,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 24,
+      "kind": "diagram-page",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "vector-first",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 4,
+      "char_count": 71,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 52,
+      "kind": "graphic-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "manual-visual-rebuild",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 17,
+      "char_count": 234,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "זוויות"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 55,
+      "kind": "graphic-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "manual-visual-rebuild",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 10,
+      "char_count": 232,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "שטח"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 60,
+      "kind": "graphic-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "manual-visual-rebuild",
+      "final_stage": "vector-next",
+      "reason": "high geometry value / diagram-driven page",
+      "image_count": 12,
+      "char_count": 172,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 1
+    },
+    {
+      "page": 5,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 58,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 14,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 18,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 22,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 23,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 25,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 26,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 27,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 28,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 59,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 29,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 30,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 2,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 33,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 34,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 36,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 39,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 40,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 44,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 45,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 46,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 47,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 48,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 49,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 50,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 51,
+      "kind": "worksheet-graphic",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 53,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 54,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 57,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 58,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 59,
+      "kind": "worksheet-graphic",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "high",
+      "recommended_action": "image-first-rebuild",
+      "final_stage": "image-first-next",
+      "reason": "graphic page with weak text layer",
+      "image_count": 1,
+      "char_count": 47,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 2
+    },
+    {
+      "page": 1,
+      "kind": "text-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 2,
+      "char_count": 213,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 4,
+      "kind": "text-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 2,
+      "char_count": 179,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "זוויות"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 12,
+      "kind": "text-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 2,
+      "char_count": 192,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 20,
+      "kind": "text-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 1,
+      "char_count": 374,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "זוויות"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 31,
+      "kind": "text-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 1,
+      "char_count": 218,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 32,
+      "kind": "text-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 2,
+      "char_count": 171,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 35,
+      "kind": "text-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 1,
+      "char_count": 147,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 37,
+      "kind": "text-heavy",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 1,
+      "char_count": 147,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 43,
+      "kind": "text-heavy",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "rewrite-from-layout",
+      "final_stage": "rewrite-later",
+      "reason": "can be rewritten after diagram pages",
+      "image_count": 0,
+      "char_count": 326,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "שטח"
+      ],
+      "execution_rank": 3
+    },
+    {
+      "page": 2,
+      "kind": "mixed",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "review",
+      "final_stage": "manual-review",
+      "reason": "mixed content",
+      "image_count": 5,
+      "char_count": 188,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "היקף"
+      ],
+      "execution_rank": 4
+    },
+    {
+      "page": 3,
+      "kind": "mixed",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "review",
+      "final_stage": "manual-review",
+      "reason": "mixed content",
+      "image_count": 4,
+      "char_count": 363,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים"
+      ],
+      "execution_rank": 4
+    },
+    {
+      "page": 6,
+      "kind": "mixed",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "review",
+      "final_stage": "manual-review",
+      "reason": "mixed content",
+      "image_count": 5,
+      "char_count": 306,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "זוויות"
+      ],
+      "execution_rank": 4
+    },
+    {
+      "page": 16,
+      "kind": "mixed",
+      "graphics_state": "exact",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "review",
+      "final_stage": "manual-review",
+      "reason": "mixed content",
+      "image_count": 4,
+      "char_count": 134,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "היקף"
+      ],
+      "execution_rank": 4
+    },
+    {
+      "page": 19,
+      "kind": "mixed",
+      "graphics_state": "enhanced",
+      "verified": false,
+      "current_priority": "medium",
+      "recommended_action": "review",
+      "final_stage": "manual-review",
+      "reason": "mixed content",
+      "image_count": 4,
+      "char_count": 493,
+      "question_marker_count": 0,
+      "categories": [
+        "דלתון",
+        "אלכסונים",
+        "זוויות"
+      ],
+      "execution_rank": 4
+    }
+  ]
+}

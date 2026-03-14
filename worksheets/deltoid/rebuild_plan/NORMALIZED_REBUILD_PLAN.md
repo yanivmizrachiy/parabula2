@@ -1,0 +1,77 @@
+# DELTOID NORMALIZED REBUILD PLAN
+
+- page_count: 60
+- done: 5
+- vector-next: 12
+- image-first-next: 29
+- rewrite-later: 9
+- manual-review: 5
+
+## Buckets
+- done: 9, 38, 41, 42, 56
+- vector-next: 7, 8, 10, 11, 13, 15, 17, 21, 24, 52, 55, 60
+- image-first-next: 5, 14, 18, 22, 23, 25, 26, 27, 28, 29, 30, 33, 34, 36, 39, 40, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 57, 58, 59
+- rewrite-later: 1, 4, 12, 20, 31, 32, 35, 37, 43
+- manual-review: 2, 3, 6, 16, 19
+
+## Ordered plan
+- page 09 | stage=done | kind=mixed | graphics_state=enhanced | images=4 | chars=167 | qmarkers=0 | reason=already treated in repo
+- page 38 | stage=done | kind=text-heavy | graphics_state=vector | images=1 | chars=147 | qmarkers=0 | reason=already treated in repo
+- page 41 | stage=done | kind=worksheet-graphic | graphics_state=vector | images=1 | chars=47 | qmarkers=0 | reason=already treated in repo
+- page 42 | stage=done | kind=worksheet-graphic | graphics_state=vector | images=1 | chars=47 | qmarkers=0 | reason=already treated in repo
+- page 56 | stage=done | kind=mixed | graphics_state=vector | images=1 | chars=117 | qmarkers=0 | reason=already treated in repo
+- page 07 | stage=vector-next | kind=graphic-heavy | graphics_state=enhanced | images=9 | chars=82 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 08 | stage=vector-next | kind=diagram-page | graphics_state=enhanced | images=4 | chars=118 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 10 | stage=vector-next | kind=diagram-page | graphics_state=enhanced | images=5 | chars=71 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 11 | stage=vector-next | kind=diagram-page | graphics_state=exact | images=3 | chars=71 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 13 | stage=vector-next | kind=diagram-page | graphics_state=enhanced | images=4 | chars=73 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 15 | stage=vector-next | kind=diagram-page | graphics_state=exact | images=3 | chars=59 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 17 | stage=vector-next | kind=diagram-page | graphics_state=exact | images=3 | chars=71 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 21 | stage=vector-next | kind=diagram-page | graphics_state=enhanced | images=3 | chars=59 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 24 | stage=vector-next | kind=diagram-page | graphics_state=exact | images=4 | chars=71 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 52 | stage=vector-next | kind=graphic-heavy | graphics_state=enhanced | images=17 | chars=234 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 55 | stage=vector-next | kind=graphic-heavy | graphics_state=exact | images=10 | chars=232 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 60 | stage=vector-next | kind=graphic-heavy | graphics_state=exact | images=12 | chars=172 | qmarkers=0 | reason=high geometry value / diagram-driven page
+- page 05 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=2 | chars=58 | qmarkers=0 | reason=graphic page with weak text layer
+- page 14 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 18 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 22 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 23 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 25 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 26 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 27 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 28 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=2 | chars=59 | qmarkers=0 | reason=graphic page with weak text layer
+- page 29 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 30 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=2 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 33 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 34 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 36 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 39 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 40 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 44 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 45 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 46 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 47 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 48 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 49 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 50 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 51 | stage=image-first-next | kind=worksheet-graphic | graphics_state=exact | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 53 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 54 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 57 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 58 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 59 | stage=image-first-next | kind=worksheet-graphic | graphics_state=enhanced | images=1 | chars=47 | qmarkers=0 | reason=graphic page with weak text layer
+- page 01 | stage=rewrite-later | kind=text-heavy | graphics_state=exact | images=2 | chars=213 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 04 | stage=rewrite-later | kind=text-heavy | graphics_state=enhanced | images=2 | chars=179 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 12 | stage=rewrite-later | kind=text-heavy | graphics_state=enhanced | images=2 | chars=192 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 20 | stage=rewrite-later | kind=text-heavy | graphics_state=exact | images=1 | chars=374 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 31 | stage=rewrite-later | kind=text-heavy | graphics_state=enhanced | images=1 | chars=218 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 32 | stage=rewrite-later | kind=text-heavy | graphics_state=exact | images=2 | chars=171 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 35 | stage=rewrite-later | kind=text-heavy | graphics_state=enhanced | images=1 | chars=147 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 37 | stage=rewrite-later | kind=text-heavy | graphics_state=enhanced | images=1 | chars=147 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 43 | stage=rewrite-later | kind=text-heavy | graphics_state=exact | images=0 | chars=326 | qmarkers=0 | reason=can be rewritten after diagram pages
+- page 02 | stage=manual-review | kind=mixed | graphics_state=enhanced | images=5 | chars=188 | qmarkers=0 | reason=mixed content
+- page 03 | stage=manual-review | kind=mixed | graphics_state=enhanced | images=4 | chars=363 | qmarkers=0 | reason=mixed content
+- page 06 | stage=manual-review | kind=mixed | graphics_state=enhanced | images=5 | chars=306 | qmarkers=0 | reason=mixed content
+- page 16 | stage=manual-review | kind=mixed | graphics_state=exact | images=4 | chars=134 | qmarkers=0 | reason=mixed content
+- page 19 | stage=manual-review | kind=mixed | graphics_state=enhanced | images=4 | chars=493 | qmarkers=0 | reason=mixed content

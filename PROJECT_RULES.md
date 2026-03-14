@@ -221,3 +221,17 @@ sources/geometry/deltoid/source.pdf
   - priority
   - recommended_action
 - זהו בסיס העבודה לתכנון שחזור הספר מחדש
+
+---
+
+## Deltoid normalized rebuild plan
+
+- יש לשמור תוכנית שחזור מנורמלת תחת:
+  `worksheets/deltoid/rebuild_plan/`
+- כל עמוד חייב להשתייך ל-stage אחד:
+  - done
+  - vector-next
+  - image-first-next
+  - rewrite-later
+  - manual-review
+- התוכנית הזו היא מקור האמת לסדר העבודה על בניית הספר החדש
