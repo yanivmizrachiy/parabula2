@@ -1,0 +1,71 @@
+# DELTOID VISUAL PAGE MAP
+
+- page_count: 60
+- graphic-heavy: 4
+- diagram-page: 8
+- text-heavy: 10
+- worksheet-graphic: 31
+- mixed: 7
+- done: 5
+
+## Page map
+- page 01 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=2 | chars=213 | qmarkers=0
+- page 02 | kind=mixed | priority=medium | action=review | images=5 | chars=188 | qmarkers=0
+- page 03 | kind=mixed | priority=medium | action=review | images=4 | chars=363 | qmarkers=0
+- page 04 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=2 | chars=179 | qmarkers=0
+- page 05 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=58 | qmarkers=0
+- page 06 | kind=mixed | priority=medium | action=review | images=5 | chars=306 | qmarkers=0
+- page 07 | kind=graphic-heavy | priority=high | action=manual-visual-rebuild | images=9 | chars=82 | qmarkers=0
+- page 08 | kind=diagram-page | priority=high | action=vector-first | images=4 | chars=118 | qmarkers=0
+- page 09 | kind=mixed | priority=done | action=already-treated | images=4 | chars=167 | qmarkers=0
+- page 10 | kind=diagram-page | priority=high | action=vector-first | images=5 | chars=71 | qmarkers=0
+- page 11 | kind=diagram-page | priority=high | action=vector-first | images=3 | chars=71 | qmarkers=0
+- page 12 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=2 | chars=192 | qmarkers=0
+- page 13 | kind=diagram-page | priority=high | action=vector-first | images=4 | chars=73 | qmarkers=0
+- page 14 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 15 | kind=diagram-page | priority=high | action=vector-first | images=3 | chars=59 | qmarkers=0
+- page 16 | kind=mixed | priority=medium | action=review | images=4 | chars=134 | qmarkers=0
+- page 17 | kind=diagram-page | priority=high | action=vector-first | images=3 | chars=71 | qmarkers=0
+- page 18 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 19 | kind=mixed | priority=medium | action=review | images=4 | chars=493 | qmarkers=0
+- page 20 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=1 | chars=374 | qmarkers=0
+- page 21 | kind=diagram-page | priority=high | action=vector-first | images=3 | chars=59 | qmarkers=0
+- page 22 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 23 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 24 | kind=diagram-page | priority=high | action=vector-first | images=4 | chars=71 | qmarkers=0
+- page 25 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 26 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 27 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 28 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=59 | qmarkers=0
+- page 29 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 30 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=2 | chars=47 | qmarkers=0
+- page 31 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=1 | chars=218 | qmarkers=0
+- page 32 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=2 | chars=171 | qmarkers=0
+- page 33 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 34 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 35 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=1 | chars=147 | qmarkers=0
+- page 36 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 37 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=1 | chars=147 | qmarkers=0
+- page 38 | kind=text-heavy | priority=done | action=already-treated | images=1 | chars=147 | qmarkers=0
+- page 39 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 40 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 41 | kind=worksheet-graphic | priority=done | action=already-treated | images=1 | chars=47 | qmarkers=0
+- page 42 | kind=worksheet-graphic | priority=done | action=already-treated | images=1 | chars=47 | qmarkers=0
+- page 43 | kind=text-heavy | priority=medium | action=rewrite-from-layout | images=0 | chars=326 | qmarkers=0
+- page 44 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 45 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 46 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 47 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 48 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 49 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 50 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 51 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 52 | kind=graphic-heavy | priority=high | action=manual-visual-rebuild | images=17 | chars=234 | qmarkers=0
+- page 53 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 54 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 55 | kind=graphic-heavy | priority=high | action=manual-visual-rebuild | images=10 | chars=232 | qmarkers=0
+- page 56 | kind=mixed | priority=done | action=already-treated | images=1 | chars=117 | qmarkers=0
+- page 57 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 58 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 59 | kind=worksheet-graphic | priority=high | action=image-first-rebuild | images=1 | chars=47 | qmarkers=0
+- page 60 | kind=graphic-heavy | priority=high | action=manual-visual-rebuild | images=12 | chars=172 | qmarkers=0

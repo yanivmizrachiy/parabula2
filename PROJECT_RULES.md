@@ -209,3 +209,15 @@ sources/geometry/deltoid/source.pdf
   - page png
   - thumb png
 - gallery.html הוא כלי העבודה הראשי למיפוי ויזואלי של הספר
+
+---
+
+## Deltoid visual page map
+
+- יש לשמור מפת עמודים חזותית תחת:
+  `worksheets/deltoid/visual_page_map/`
+- המפה קובעת לכל עמוד:
+  - kind
+  - priority
+  - recommended_action
+- זהו בסיס העבודה לתכנון שחזור הספר מחדש
