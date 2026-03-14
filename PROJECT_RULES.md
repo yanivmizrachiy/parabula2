@@ -256,3 +256,13 @@ sources/geometry/deltoid/source.pdf
 - הפרק נשמר תחת:
   `worksheets/deltoid/chapters/chapter_02_vector_next/`
 - כל עמוד פרק עוטף את המקור הטוב ביותר הזמין
+
+---
+
+## Deltoid chapter 03 image first
+
+- יש לבנות פרק שלישי מתוך bucket:
+  `image-first-next`
+- הפרק נשמר תחת:
+  `worksheets/deltoid/chapters/chapter_03_image_first/`
+- זהו שלב סגירת רוב הספר כפרקי עבודה אמיתיים
