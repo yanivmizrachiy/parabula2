@@ -293,3 +293,12 @@ sources/geometry/deltoid/source.pdf
   - precision_lab.json
   - precision-gallery.html
 - זהו בסיס העבודה לדיוק עמוק של ציורים וגרפים
+
+---
+
+## Deltoid theme overrides
+
+- יש לקשר את editable_book ל-theme.json כ-source of truth
+- יש לייצר:
+  `worksheets/deltoid/editable_book/assets/theme.generated.css`
+- editable-index.html ו-editable-book.html חייבים לטעון את theme.generated.css

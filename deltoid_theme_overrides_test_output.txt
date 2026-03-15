@@ -1,0 +1,93 @@
+
+> test
+> node --test
+
+[32m✔ book inventory json exists [90m(1.576302ms)[39m[39m
+[32m✔ book status markdown exists [90m(0.15698ms)[39m[39m
+[32m✔ all 60 page text files exist [90m(0.581146ms)[39m[39m
+[32m✔ inventory page count is 60 [90m(5.719584ms)[39m[39m
+[32m✔ chapter manifest exists [90m(1.589323ms)[39m[39m
+[32m✔ chapter index exists [90m(0.157292ms)[39m[39m
+[32m✔ chapter book exists [90m(0.132448ms)[39m[39m
+[32m✔ chapter contains 5 wrapped pages [90m(0.330052ms)[39m[39m
+[32m✔ chapter manifest page count is 5 [90m(0.56125ms)[39m[39m
+[32m✔ chapter 02 manifest exists [90m(1.755417ms)[39m[39m
+[32m✔ chapter 02 index exists [90m(0.161875ms)[39m[39m
+[32m✔ chapter 02 book exists [90m(0.172969ms)[39m[39m
+[32m✔ chapter 02 contains wrapped pages [90m(0.407708ms)[39m[39m
+[32m✔ chapter 02 manifest has vector-next bucket [90m(0.607708ms)[39m[39m
+[32m✔ chapter 03 manifest exists [90m(3.053385ms)[39m[39m
+[32m✔ chapter 03 index exists [90m(0.332031ms)[39m[39m
+[32m✔ chapter 03 book exists [90m(0.276458ms)[39m[39m
+[32m✔ chapter 03 contains wrapped pages [90m(0.729166ms)[39m[39m
+[32m✔ chapter 03 manifest has image-first-next bucket [90m(23.616198ms)[39m[39m
+[32m✔ graphics analysis file exists [90m(1.559948ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.406927ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(3.094687ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(0.655156ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.344167ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(1.869583ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(0.339687ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.207812ms)[39m[39m
+[32m✔ graphics status json exists [90m(1.518229ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.142396ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.364271ms)[39m[39m
+[32m✔ image inventory json exists [90m(1.57375ms)[39m[39m
+[32m✔ image gallery exists [90m(0.14948ms)[39m[39m
+[32m✔ all 60 page images exist [90m(0.421354ms)[39m[39m
+[32m✔ all 60 thumbnails exist [90m(0.273385ms)[39m[39m
+[32m✔ normalized rebuild plan json exists [90m(2.907552ms)[39m[39m
+[32m✔ normalized rebuild plan markdown exists [90m(0.312083ms)[39m[39m
+[32m✔ normalized rebuild plan html exists [90m(0.297605ms)[39m[39m
+[32m✔ normalized rebuild plan contains 60 records [90m(6.585469ms)[39m[39m
+[32m✔ normalized rebuild plan has done bucket [90m(0.714583ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(2.876355ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.280678ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(2.864792ms)[39m[39m
+[32m✔ page 41 inspection assets exist [90m(3.04875ms)[39m[39m
+[32m✔ page 41 precise vector svg exists [90m(1.509948ms)[39m[39m
+[32m✔ page 41 precise vector html exists [90m(0.143125ms)[39m[39m
+[32m✔ page 41 precise vector html has no inline style [90m(0.459583ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(6.148385ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(7.215417ms)[39m[39m
+[32m✔ page 56 precise vector svg exists [90m(1.510938ms)[39m[39m
+[32m✔ page 56 precise vector html exists [90m(0.138282ms)[39m[39m
+[32m✔ page 56 precise vector html has no inline style [90m(17.531198ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(1.493438ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(13.517552ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(5.244479ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(1.292552ms)[39m[39m
+[32m✔ precision lab json exists [90m(1.539687ms)[39m[39m
+[32m✔ precision gallery exists [90m(0.152968ms)[39m[39m
+[32m✔ precision lab source pages exist [90m(0.418541ms)[39m[39m
+[32m✔ precision lab line maps exist [90m(0.173854ms)[39m[39m
+[32m✔ graphics status json exists [90m(3.082188ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.328385ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.382188ms)[39m[39m
+[32m✔ exact page count is 60 [90m(0.616927ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(1.198386ms)[39m[39m
+[32m✔ theme json exists [90m(1.666927ms)[39m[39m
+[32m✔ generated theme css exists [90m(0.185365ms)[39m[39m
+[32m✔ editable index links generated theme [90m(0.244479ms)[39m[39m
+[32m✔ editable book links generated theme [90m(0.128282ms)[39m[39m
+[32m✔ unified book shell json exists [90m(1.522083ms)[39m[39m
+[32m✔ unified book index exists [90m(0.132396ms)[39m[39m
+[32m✔ unified book page exists [90m(0.121041ms)[39m[39m
+[32m✔ unified book theme exists [90m(0.112656ms)[39m[39m
+[32m✔ unified book has 3 chapters [90m(5.745208ms)[39m[39m
+[32m✔ visual page map json exists [90m(1.630729ms)[39m[39m
+[32m✔ visual page map markdown exists [90m(0.153385ms)[39m[39m
+[32m✔ visual map html exists [90m(0.156875ms)[39m[39m
+[32m✔ visual page map contains 60 records [90m(2.781823ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(174.76401ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(1.67599ms)[39m[39m
+[32m✔ rules files exist [90m(1.366615ms)[39m[39m
+[34mℹ tests 80[39m
+[34mℹ suites 0[39m
+[34mℹ pass 80[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 1094.139635[39m

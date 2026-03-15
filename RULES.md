@@ -225,3 +225,10 @@ sources/geometry/deltoid/source.pdf
 
 - אחרי editable shell יש לבנות precision lab
 - המעבדה נועדה להשוואה ויזואלית עמוקה בין מקור PDF לבין הגרסאות שנבנו
+
+---
+
+## חיבור theme overrides לדלתון
+
+- אחרי editable shell חייב להיות חיבור אמיתי בין theme.json לבין CSS מחולל
+- שינוי עתידי בעיצוב יעבור דרך theme.json
