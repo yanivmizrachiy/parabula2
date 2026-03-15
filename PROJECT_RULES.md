@@ -266,3 +266,16 @@ sources/geometry/deltoid/source.pdf
 - הפרק נשמר תחת:
   `worksheets/deltoid/chapters/chapter_03_image_first/`
 - זהו שלב סגירת רוב הספר כפרקי עבודה אמיתיים
+
+---
+
+## Deltoid unified book shell
+
+- יש לבנות מעטפת ספר מאוחדת תחת:
+  `worksheets/deltoid/unified_book/`
+- המעטפת חייבת לכלול:
+  - book-shell.json
+  - index.html
+  - book.html
+  - assets/theme.css
+- זו שכבת העיצוב המרכזית הראשונה של הספר

@@ -1,0 +1,29 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "title": "ספר דלתון — מעטפת מאוחדת",
+  "chapter_count": 3,
+  "chapters": [
+    {
+      "id": "chapter_01_done_pages",
+      "title": "פרק 1 — עמודים מטופלים",
+      "index": "worksheets/deltoid/chapters/chapter_01_done_pages/index.html",
+      "book": "worksheets/deltoid/chapters/chapter_01_done_pages/chapter-book.html",
+      "description": "עמודים 9, 38, 41, 42, 56 שכבר טופלו והפכו לבסיס האיכותי של הספר."
+    },
+    {
+      "id": "chapter_02_vector_next",
+      "title": "פרק 2 — vector-next",
+      "index": "worksheets/deltoid/chapters/chapter_02_vector_next/index.html",
+      "book": "worksheets/deltoid/chapters/chapter_02_vector_next/chapter-book.html",
+      "description": "עמודים בעלי ערך גיאומטרי גבוה שהוגדרו כשלב הבא לשחזור שיטתי."
+    },
+    {
+      "id": "chapter_03_image_first",
+      "title": "פרק 3 — image-first",
+      "index": "worksheets/deltoid/chapters/chapter_03_image_first/index.html",
+      "book": "worksheets/deltoid/chapters/chapter_03_image_first/chapter-book.html",
+      "description": "עמודים גרפיים חזקים שנעטפו בגישת image-first כדי לסגור מהר חלק גדול מהספר."
+    }
+  ]
+}
