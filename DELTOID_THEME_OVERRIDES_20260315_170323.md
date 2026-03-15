@@ -1,3 +1,129 @@
+# Deltoid theme overrides build
+
+- time: 2026-03-15T17:03:25+02:00
+
+## theme summary
+{
+  "direction": "rtl",
+  "font": "Arial",
+  "primary_color": "#1d4ed8"
+}
+
+## generated css
+:root{
+  --bg:#f4f7fb;
+  --card:#ffffff;
+  --text:#0f172a;
+  --muted:#475569;
+  --line:#dbe4ee;
+  --blue:#1d4ed8;
+  --blue-dark:#173b8f;
+  --accent:#4f8df7;
+  --radius:22px;
+  --shadow:0 12px 30px rgba(15,23,42,.08);
+  --font-main:Arial, sans-serif;
+  --title-size:34px;
+  --section-size:24px;
+  --body-size:16px;
+  --line-height:1.75;
+}
+body{
+  direction:rtl;
+  margin:0;
+  font-family:var(--font-main);
+  background:linear-gradient(180deg,#eef4fb 0%,var(--bg) 100%);
+  color:var(--text);
+  font-size:var(--body-size);
+  line-height:var(--line-height);
+}
+.shell{
+  max-width:1280px;
+  margin:0 auto;
+  padding:24px 16px 48px;
+}
+.hero{
+  background:linear-gradient(135deg,var(--blue-dark) 0%,var(--blue) 55%,var(--accent) 100%);
+  color:#fff;
+  border-radius:28px;
+  padding:28px 22px;
+  box-shadow:var(--shadow);
+}
+.hero h1{margin:0 0 10px 0;font-size:var(--title-size)}
+.hero p{margin:0;opacity:.96}
+.toolbar{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:14px;
+  margin-top:20px;
+}
+.tool{
+  background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:18px;
+  padding:14px;
+}
+.tool .label{font-size:13px;opacity:.9}
+.tool .value{font-size:18px;font-weight:700;margin-top:6px}
+.section-title{margin:28px 0 16px;font-size:var(--section-size)}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:18px;
+}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px;
+  box-shadow:var(--shadow);
+}
+.card h2{margin:0 0 10px 0;font-size:20px}
+.card p{margin:0 0 14px 0;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:10px}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:0 14px;
+  border-radius:14px;
+  text-decoration:none;
+  font-weight:700;
+  border:1px solid transparent;
+}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-secondary{background:#fff;color:var(--blue);border-color:#bfdbfe}
+.config, .frame-wrap{
+  margin-top:26px;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:26px;
+  box-shadow:var(--shadow);
+  padding:18px;
+}
+pre{
+  margin:0;
+  white-space:pre-wrap;
+  word-break:break-word;
+  font-size:13px;
+  line-height:1.7;
+  color:#0f172a;
+}
+.note{margin-top:18px;color:var(--muted);font-size:14px}
+iframe{
+  width:100%;
+  height:78vh;
+  border:0;
+  display:block;
+  border-radius:18px;
+  background:#fff;
+}
+@media (max-width:700px){
+  .hero h1{font-size:28px}
+  iframe{height:68vh}
+}
+
+## tests
 
 > test
 > node --test
@@ -91,3 +217,9 @@ page 42 vector files exist ✓
 [34mℹ skipped 0[39m
 [34mℹ todo 0[39m
 [34mℹ duration_ms 1044.103906[39m
+
+## git status
+ M deltoid_theme_overrides_test_output.txt
+?? DELTOID_THEME_OVERRIDES_20260315_170323.md
+?? analysis/
+?? tools/connect_editable_theme_overrides.sh
