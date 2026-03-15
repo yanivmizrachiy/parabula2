@@ -1,0 +1,162 @@
+{
+  "project": "parabula2",
+  "topic": "דלתון",
+  "page_count": 17,
+  "pages": [
+    9,
+    38,
+    41,
+    42,
+    56,
+    7,
+    8,
+    10,
+    11,
+    13,
+    15,
+    17,
+    21,
+    24,
+    52,
+    55,
+    60
+  ],
+  "records": [
+    {
+      "page": 9,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-09.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-09.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-09.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 38,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-38.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-38.png",
+      "best_kind": "vector-html",
+      "best_path": "worksheets/deltoid/vector_pages/page-38.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 41,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-41.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-41.png",
+      "best_kind": "vector-html",
+      "best_path": "worksheets/deltoid/vector_pages/page-41-vector.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 42,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-42.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-42.png",
+      "best_kind": "vector-html",
+      "best_path": "worksheets/deltoid/vector_pages/page-42-vector.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 56,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-56.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-56.png",
+      "best_kind": "vector-html",
+      "best_path": "worksheets/deltoid/vector_pages/page-56-vector.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 7,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-07.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-07.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-07.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 8,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-08.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-08.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-08.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 10,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-10.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-10.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-10.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 11,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-11.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-11.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-11.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 13,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-13.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-13.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-13.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 15,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-15.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-15.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-15.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 17,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-17.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-17.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-17.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 21,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-21.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-21.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-21.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 24,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-24.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-24.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-24.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 52,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-52.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-52.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-52.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 55,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-55.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-55.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-55.html",
+      "best_preview_png": null
+    },
+    {
+      "page": 60,
+      "source_png": "worksheets/deltoid/precision_lab/source_pages/page-60.png",
+      "line_map_png": "worksheets/deltoid/precision_lab/line_maps/page-60.png",
+      "best_kind": "exact-html",
+      "best_path": "worksheets/deltoid/exact_pages/page-60.html",
+      "best_preview_png": null
+    }
+  ]
+}

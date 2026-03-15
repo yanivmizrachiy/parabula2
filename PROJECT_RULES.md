@@ -279,3 +279,17 @@ sources/geometry/deltoid/source.pdf
   - book.html
   - assets/theme.css
 - זו שכבת העיצוב המרכזית הראשונה של הספר
+
+---
+
+## Deltoid precision lab
+
+- יש לבנות precision lab תחת:
+  `worksheets/deltoid/precision_lab/`
+- המעבדה חייבת לכלול:
+  - source_pages
+  - line_maps
+  - current_best
+  - precision_lab.json
+  - precision-gallery.html
+- זהו בסיס העבודה לדיוק עמוק של ציורים וגרפים
