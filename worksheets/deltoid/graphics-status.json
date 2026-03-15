@@ -4,8 +4,8 @@
   "source_pdf_page_count": 60,
   "exact_page_count": 60,
   "enhanced_asset_count": 31,
-  "vector_page_count": 2,
-  "vector_asset_count": 3,
+  "vector_page_count": 4,
+  "vector_asset_count": 5,
   "records": [
     {
       "page": 1,
@@ -377,11 +377,12 @@
     {
       "page": 41,
       "page_id": "41",
-      "state": "enhanced",
+      "state": "vector",
       "verified": false,
       "priority": "high",
       "notes": [
-        "enhanced asset exists"
+        "enhanced asset exists",
+        "vector page exists"
       ]
     },
     {
@@ -509,11 +510,12 @@
     {
       "page": 56,
       "page_id": "56",
-      "state": "enhanced",
+      "state": "vector",
       "verified": false,
       "priority": "high",
       "notes": [
-        "enhanced asset exists"
+        "enhanced asset exists",
+        "vector page exists"
       ]
     },
     {
