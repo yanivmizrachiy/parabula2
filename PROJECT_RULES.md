@@ -302,3 +302,13 @@ sources/geometry/deltoid/source.pdf
 - יש לייצר:
   `worksheets/deltoid/editable_book/assets/theme.generated.css`
 - editable-index.html ו-editable-book.html חייבים לטעון את theme.generated.css
+
+---
+
+## Deltoid rebuild v2 source text injection
+
+- יש להזריק לכל עמוד ב-rebuild_v2 טקסט מקור אמיתי שחולץ מה-PDF
+- קבצי המקור נשמרים תחת:
+  `worksheets/deltoid/rebuild_v2/source_text/`
+- קובץ התור נשמר תחת:
+  `worksheets/deltoid/rebuild_v2/config/content_queue.json`
