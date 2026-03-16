@@ -1,0 +1,161 @@
+# Deltoid auto-fix production weak pages
+
+- time: 2026-03-16T22:59:11+02:00
+
+## auto-fix summary
+{
+  "fixed_count": 5,
+  "fixed_files": [
+    "worksheets/deltoid/final_pages_batch_02/pages/page-10.html",
+    "worksheets/deltoid/final_pages_batch_02/pages/page-11.html",
+    "worksheets/deltoid/final_pages_batch_02/pages/page-12.html",
+    "worksheets/deltoid/final_pages_batch_02/pages/page-13.html",
+    "worksheets/deltoid/final_pages_batch_02/pages/page-14.html"
+  ]
+}
+## tests
+
+> test
+> node --test
+
+[32m✔ a4 packing audit json exists [90m(8.487031ms)[39m[39m
+[32m✔ a4 packing report exists [90m(0.466302ms)[39m[39m
+[32m✔ production auto-fix weak pages json exists [90m(4.485261ms)[39m[39m
+[32m✔ pages 10-14 contain a4 balance block [90m(1.379427ms)[39m[39m
+[32m✔ auto fix weak a4 json exists [90m(4.332448ms)[39m[39m
+[32m✔ book inventory json exists [90m(4.676875ms)[39m[39m
+[32m✔ book status markdown exists [90m(0.500365ms)[39m[39m
+[32m✔ all 60 page text files exist [90m(1.191146ms)[39m[39m
+[32m✔ inventory page count is 60 [90m(1.029688ms)[39m[39m
+[32m✔ chapter manifest exists [90m(2.762552ms)[39m[39m
+[32m✔ chapter index exists [90m(0.244323ms)[39m[39m
+[32m✔ chapter book exists [90m(0.258073ms)[39m[39m
+[32m✔ chapter contains 5 wrapped pages [90m(0.550678ms)[39m[39m
+[32m✔ chapter manifest page count is 5 [90m(0.364844ms)[39m[39m
+[32m✔ chapter 02 manifest exists [90m(2.651042ms)[39m[39m
+[32m✔ chapter 02 index exists [90m(0.233281ms)[39m[39m
+[32m✔ chapter 02 book exists [90m(0.226511ms)[39m[39m
+[32m✔ chapter 02 contains wrapped pages [90m(0.694323ms)[39m[39m
+[32m✔ chapter 02 manifest has vector-next bucket [90m(0.38ms)[39m[39m
+[32m✔ chapter 03 manifest exists [90m(4.637552ms)[39m[39m
+[32m✔ chapter 03 index exists [90m(0.479427ms)[39m[39m
+[32m✔ chapter 03 book exists [90m(0.447239ms)[39m[39m
+[32m✔ chapter 03 contains wrapped pages [90m(1.098177ms)[39m[39m
+[32m✔ chapter 03 manifest has image-first-next bucket [90m(0.749687ms)[39m[39m
+[32m✔ graphics analysis file exists [90m(4.583437ms)[39m[39m
+[32m✔ at least one enhanced page exists [90m(0.997084ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(5.092812ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(1.048177ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.526875ms)[39m[39m
+[32m✔ exact deltoid png assets exist [90m(7.225677ms)[39m[39m
+[32m✔ exact deltoid html pages exist [90m(1.658542ms)[39m[39m
+[32m✔ exact deltoid manifest exists [90m(0.580364ms)[39m[39m
+[32m✔ batch 01 audit json exists [90m(7.542708ms)[39m[39m
+[32m✔ batch 01 audit report exists [90m(0.505781ms)[39m[39m
+[32m✔ batch 01 audit has 5 records [90m(0.722812ms)[39m[39m
+[32m✔ page 09 still has bullet layout and page number [90m(0.654166ms)[39m[39m
+[32m✔ refined batch index exists [90m(6.725052ms)[39m[39m
+[32m✔ refined batch manifest exists [90m(0.494896ms)[39m[39m
+[32m✔ refined batch has 5 pages [90m(0.901771ms)[39m[39m
+[32m✔ refined page keeps bullet layout and page number [90m(0.948073ms)[39m[39m
+[32m✔ final batch 01 index exists [90m(10.508072ms)[39m[39m
+[32m✔ final batch 01 manifest exists [90m(1.0475ms)[39m[39m
+[32m✔ final batch 01 has 5 pages [90m(2.449792ms)[39m[39m
+[32m✔ final page has blue page number and no numbered question labels [90m(0.94698ms)[39m[39m
+[32m✔ batch 02 index exists [90m(26.995156ms)[39m[39m
+[32m✔ batch 02 manifest exists [90m(0.39901ms)[39m[39m
+[32m✔ batch 02 has 5 pages [90m(0.569688ms)[39m[39m
+[32m✔ batch 03 repair manifest exists [90m(2.534167ms)[39m[39m
+[32m✔ batch 03 repaired pages keep bullet layout and page number [90m(0.899583ms)[39m[39m
+[32m✔ graphics status json exists [90m(2.547657ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.220052ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.280052ms)[39m[39m
+[32m✔ image inventory json exists [90m(2.686094ms)[39m[39m
+[32m✔ image gallery exists [90m(0.237916ms)[39m[39m
+[32m✔ all 60 page images exist [90m(0.660937ms)[39m[39m
+[32m✔ all 60 thumbnails exist [90m(0.370938ms)[39m[39m
+[32m✔ normalized rebuild plan json exists [90m(4.557448ms)[39m[39m
+[32m✔ normalized rebuild plan markdown exists [90m(0.46974ms)[39m[39m
+[32m✔ normalized rebuild plan html exists [90m(0.527083ms)[39m[39m
+[32m✔ normalized rebuild plan contains 60 records [90m(1.249062ms)[39m[39m
+[32m✔ normalized rebuild plan has done bucket [90m(1.091146ms)[39m[39m
+[32m✔ page 38 vector svg exists [90m(2.803698ms)[39m[39m
+[32m✔ page 38 vector html exists [90m(0.238854ms)[39m[39m
+[32m✔ page 38 vector html has no inline style [90m(26.451615ms)[39m[39m
+[32m✔ page 41 inspection assets exist [90m(5.093229ms)[39m[39m
+[32m✔ page 41 precise vector svg exists [90m(5.164532ms)[39m[39m
+[32m✔ page 41 precise vector html exists [90m(0.554531ms)[39m[39m
+[32m✔ page 41 precise vector html has no inline style [90m(16.172135ms)[39m[39m
+[32m✔ page 42 enhanced asset exists [90m(17.898594ms)[39m[39m
+[32m✔ page 42 html points to enhanced asset [90m(0.753438ms)[39m[39m
+[32m✔ page 56 precise vector svg exists [90m(4.597709ms)[39m[39m
+[32m✔ page 56 precise vector html exists [90m(0.424375ms)[39m[39m
+[32m✔ page 56 precise vector html has no inline style [90m(7.729531ms)[39m[39m
+[32m✔ page 9 enhanced asset exists [90m(7.441563ms)[39m[39m
+[32m✔ page 9 html points to enhanced asset [90m(0.516354ms)[39m[39m
+[32m✔ deltoid generated pages exist [90m(5.039166ms)[39m[39m
+[32m✔ deltoid manifest exists [90m(0.655ms)[39m[39m
+[32m✔ precision lab json exists [90m(7.525313ms)[39m[39m
+[32m✔ precision gallery exists [90m(0.500781ms)[39m[39m
+[32m✔ precision lab source pages exist [90m(2.400104ms)[39m[39m
+[32m✔ precision lab line maps exist [90m(0.664636ms)[39m[39m
+[32m✔ production manifest exists [90m(2.583177ms)[39m[39m
+[32m✔ production manifest has at least 15 pages [90m(7.542396ms)[39m[39m
+[32m✔ production strict qa json exists [90m(2.58073ms)[39m[39m
+[32m✔ production packing audit json exists [90m(0.247709ms)[39m[39m
+[32m✔ production packing audit report exists [90m(0.235677ms)[39m[39m
+[32m✔ rebuild v2 source_text dir exists [90m(3.02901ms)[39m[39m
+[32m✔ rebuild v2 has 60 source text files [90m(0.793646ms)[39m[39m
+[32m✔ content queue exists [90m(0.243958ms)[39m[39m
+[32m✔ page 01 contains extracted source text block [90m(0.492083ms)[39m[39m
+[32m✔ graphics status json exists [90m(2.533594ms)[39m[39m
+[32m✔ vector qa markdown exists [90m(0.216875ms)[39m[39m
+[32m✔ page 56 inspection assets exist [90m(0.304323ms)[39m[39m
+[32m✔ exact page count is 60 [90m(0.660261ms)[39m[39m
+[32m✔ all vector html files have no inline style [90m(0.812917ms)[39m[39m
+[32m✔ strict qa tool exists [90m(5.163021ms)[39m[39m
+[32m✔ theme json exists [90m(13.836614ms)[39m[39m
+[32m✔ generated theme css exists [90m(0.580261ms)[39m[39m
+[32m✔ editable index links generated theme [90m(0.885729ms)[39m[39m
+[32m✔ editable book links generated theme [90m(0.420729ms)[39m[39m
+[32m✔ unified book shell json exists [90m(4.543907ms)[39m[39m
+[32m✔ unified book index exists [90m(0.45875ms)[39m[39m
+[32m✔ unified book page exists [90m(0.48875ms)[39m[39m
+[32m✔ unified book theme exists [90m(0.423177ms)[39m[39m
+[32m✔ unified book has 3 chapters [90m(0.798594ms)[39m[39m
+[32m✔ visual page map json exists [90m(2.762083ms)[39m[39m
+[32m✔ visual page map markdown exists [90m(0.279583ms)[39m[39m
+[32m✔ visual map html exists [90m(0.267291ms)[39m[39m
+[32m✔ visual page map contains 60 records [90m(0.627031ms)[39m[39m
+page 42 vector files exist ✓
+[32m✔ tests/page42-vector.test.mjs [90m(409.688542ms)[39m[39m
+[32m✔ at least 10 worksheet pages exist [90m(5.112864ms)[39m[39m
+TEST OK
+[32m✔ tests/rebuild_v2.test.mjs [90m(374.513386ms)[39m[39m
+[32m✔ rules files exist [90m(2.353698ms)[39m[39m
+[34mℹ tests 113[39m
+[34mℹ suites 0[39m
+[34mℹ pass 113[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 2902.507499[39m
+
+## git status
+ M worksheets/deltoid/final_pages_batch_02/pages/page-10.html
+ M worksheets/deltoid/final_pages_batch_02/pages/page-11.html
+ M worksheets/deltoid/final_pages_batch_02/pages/page-12.html
+ M worksheets/deltoid/final_pages_batch_02/pages/page-13.html
+ M worksheets/deltoid/final_pages_batch_02/pages/page-14.html
+?? DELTOID_AUTO_FIX_PRODUCTION_WEAK_PAGES_20260316_225907.md
+?? analysis/
+?? deltoid_auto_fix_production_weak_pages_test_output.txt
+?? deltoid_batch_03_repair_test_output.txt
+?? deltoid_pdf_analysis/
+?? styles/deltoid-book.css
+?? tests/deltoid-auto-fix-production-weak-pages.test.mjs
+?? tests/deltoid-final-pages-batch-03-repair.test.mjs
+?? tools/deltoid_auto_fix_production_weak_pages.sh
+?? tools/deltoid_auto_math_symbols.sh
+?? worksheets/deltoid/production_auto_fix_weak_pages.json
