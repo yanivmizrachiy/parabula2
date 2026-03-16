@@ -1,0 +1,112 @@
+{
+  "page_count": 15,
+  "failed_pages": [],
+  "warning_pages": [],
+  "records": [
+    {
+      "page": 9,
+      "file": "worksheets/deltoid/final_pages_batch_01_refined/pages/page-09.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "file": "worksheets/deltoid/final_pages_batch_02/pages/page-10.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "file": "worksheets/deltoid/final_pages_batch_02/pages/page-11.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "file": "worksheets/deltoid/final_pages_batch_02/pages/page-12.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 13,
+      "file": "worksheets/deltoid/final_pages_batch_02/pages/page-13.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 14,
+      "file": "worksheets/deltoid/final_pages_batch_02/pages/page-14.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 15,
+      "file": "worksheets/deltoid/final_pages_batch_03/pages/page-15.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 16,
+      "file": "worksheets/deltoid/final_pages_batch_03/pages/page-16.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 17,
+      "file": "worksheets/deltoid/final_pages_batch_03/pages/page-17.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 18,
+      "file": "worksheets/deltoid/final_pages_batch_03/pages/page-18.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 19,
+      "file": "worksheets/deltoid/final_pages_batch_03/pages/page-19.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 38,
+      "file": "worksheets/deltoid/final_pages_batch_01_refined/pages/page-38.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 41,
+      "file": "worksheets/deltoid/final_pages_batch_01_refined/pages/page-41.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 42,
+      "file": "worksheets/deltoid/final_pages_batch_01_refined/pages/page-42.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": 56,
+      "file": "worksheets/deltoid/final_pages_batch_01_refined/pages/page-56.html",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}
