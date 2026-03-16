@@ -1,3 +1,8 @@
+# Deltoid strict layout and math QA
+
+- time: 2026-03-16T22:36:45+02:00
+
+## tests
 
 > test
 > node --test
@@ -115,3 +120,38 @@ TEST OK
 [34mℹ skipped 0[39m
 [34mℹ todo 0[39m
 [34mℹ duration_ms 1427.846406[39m
+
+## git status
+ M deltoid_strict_layout_math_qa_test_output.txt
+ M worksheets/deltoid/final_pages_batch_01/pages/page-09.html
+ M worksheets/deltoid/final_pages_batch_01_refined/pages/page-09.html
+ M worksheets/deltoid/final_pages_batch_02/pages/page-12.html
+ M worksheets/deltoid/final_pages_batch_03/pages/page-15.html
+ M worksheets/deltoid/final_pages_batch_03/pages/page-16.html
+ M worksheets/deltoid/final_pages_batch_03/pages/page-17.html
+ M worksheets/deltoid/final_pages_batch_03/pages/page-18.html
+ M worksheets/deltoid/final_pages_batch_03/pages/page-19.html
+ M worksheets/deltoid/pages/page-02.html
+ M worksheets/deltoid/pages/page-03.html
+ M worksheets/deltoid/pages/page-04.html
+ M worksheets/deltoid/pages/page-05.html
+ M worksheets/deltoid/pages/page-06.html
+ M worksheets/deltoid/pages/page-08.html
+ M worksheets/deltoid/rebuild_v2/pages/page-03.html
+ M worksheets/deltoid/rebuild_v2/pages/page-06.html
+ M worksheets/deltoid/rebuild_v2/pages/page-09.html
+ M worksheets/deltoid/rebuild_v2/pages/page-12.html
+ M worksheets/deltoid/rebuild_v2/pages/page-19.html
+ M worksheets/deltoid/rebuild_v2/pages/page-20.html
+ M worksheets/deltoid/rebuild_v2/pages/page-31.html
+ M worksheets/deltoid/rebuild_v2/pages/page-52.html
+?? DELTOID_STRICT_LAYOUT_MATH_QA_20260316_223635.md
+?? analysis/
+?? deltoid_batch_03_repair_test_output.txt
+?? deltoid_pdf_analysis/
+?? styles/deltoid-book.css
+?? tests/deltoid-final-pages-batch-03-repair.test.mjs
+?? tools/deltoid_auto_math_symbols.sh
+?? worksheets/deltoid/final_pages_batch_03/batch_03_repair_manifest.json
+?? worksheets/deltoid/page_preview/
+?? worksheets/deltoid/templates/
