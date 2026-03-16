@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/bash
 set -e
 
 OUT="worksheets/deltoid/final_pages_batch_03"
