@@ -1,0 +1,98 @@
+{
+  "page_count": 5,
+  "ok_pages": [
+    9,
+    38,
+    41,
+    42,
+    56
+  ],
+  "needs_fix_pages": [],
+  "records": [
+    {
+      "page": 9,
+      "html_path": "worksheets/deltoid/final_pages_batch_01/pages/page-09.html",
+      "text_path": "worksheets/deltoid/rebuild_v2/source_text/page-09.txt",
+      "bullet_count": 2,
+      "page_number_ok": true,
+      "question_numbering_found": false,
+      "source_text_block_found": true,
+      "source_image_found": true,
+      "source_text_length": 167,
+      "html_text_length": 788,
+      "length_ratio": 4.719,
+      "status": "ok",
+      "issues": [
+        "יותר מדי טקסט/מעטפת ביחס למקור"
+      ]
+    },
+    {
+      "page": 38,
+      "html_path": "worksheets/deltoid/final_pages_batch_01/pages/page-38.html",
+      "text_path": "worksheets/deltoid/rebuild_v2/source_text/page-38.txt",
+      "bullet_count": 3,
+      "page_number_ok": true,
+      "question_numbering_found": false,
+      "source_text_block_found": true,
+      "source_image_found": true,
+      "source_text_length": 147,
+      "html_text_length": 778,
+      "length_ratio": 5.293,
+      "status": "ok",
+      "issues": [
+        "יותר מדי טקסט/מעטפת ביחס למקור"
+      ]
+    },
+    {
+      "page": 41,
+      "html_path": "worksheets/deltoid/final_pages_batch_01/pages/page-41.html",
+      "text_path": "worksheets/deltoid/rebuild_v2/source_text/page-41.txt",
+      "bullet_count": 1,
+      "page_number_ok": true,
+      "question_numbering_found": false,
+      "source_text_block_found": true,
+      "source_image_found": true,
+      "source_text_length": 47,
+      "html_text_length": 669,
+      "length_ratio": 14.234,
+      "status": "ok",
+      "issues": [
+        "יותר מדי טקסט/מעטפת ביחס למקור"
+      ]
+    },
+    {
+      "page": 42,
+      "html_path": "worksheets/deltoid/final_pages_batch_01/pages/page-42.html",
+      "text_path": "worksheets/deltoid/rebuild_v2/source_text/page-42.txt",
+      "bullet_count": 1,
+      "page_number_ok": true,
+      "question_numbering_found": false,
+      "source_text_block_found": true,
+      "source_image_found": true,
+      "source_text_length": 47,
+      "html_text_length": 669,
+      "length_ratio": 14.234,
+      "status": "ok",
+      "issues": [
+        "יותר מדי טקסט/מעטפת ביחס למקור"
+      ]
+    },
+    {
+      "page": 56,
+      "html_path": "worksheets/deltoid/final_pages_batch_01/pages/page-56.html",
+      "text_path": "worksheets/deltoid/rebuild_v2/source_text/page-56.txt",
+      "bullet_count": 3,
+      "page_number_ok": true,
+      "question_numbering_found": false,
+      "source_text_block_found": true,
+      "source_image_found": true,
+      "source_text_length": 117,
+      "html_text_length": 743,
+      "length_ratio": 6.35,
+      "status": "ok",
+      "issues": [
+        "יותר מדי טקסט/מעטפת ביחס למקור"
+      ]
+    }
+  ]
+}
