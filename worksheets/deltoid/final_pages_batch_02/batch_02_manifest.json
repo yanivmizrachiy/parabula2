@@ -1,0 +1,30 @@
+{
+  "page_count": 5,
+  "records": [
+    {
+      "page": 10,
+      "bullet_count": 1,
+      "target_html": "worksheets/deltoid/final_pages_batch_02/pages/page-10.html"
+    },
+    {
+      "page": 11,
+      "bullet_count": 1,
+      "target_html": "worksheets/deltoid/final_pages_batch_02/pages/page-11.html"
+    },
+    {
+      "page": 12,
+      "bullet_count": 3,
+      "target_html": "worksheets/deltoid/final_pages_batch_02/pages/page-12.html"
+    },
+    {
+      "page": 13,
+      "bullet_count": 1,
+      "target_html": "worksheets/deltoid/final_pages_batch_02/pages/page-13.html"
+    },
+    {
+      "page": 14,
+      "bullet_count": 1,
+      "target_html": "worksheets/deltoid/final_pages_batch_02/pages/page-14.html"
+    }
+  ]
+}
