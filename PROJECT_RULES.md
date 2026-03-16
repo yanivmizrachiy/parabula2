@@ -312,3 +312,13 @@ sources/geometry/deltoid/source.pdf
   `worksheets/deltoid/rebuild_v2/source_text/`
 - קובץ התור נשמר תחת:
   `worksheets/deltoid/rebuild_v2/config/content_queue.json`
+
+---
+
+## Deltoid final pages batch 01
+
+- יש לבנות קבוצה ראשונה של עמודים סופיים תחת:
+  `worksheets/deltoid/final_pages_batch_01/`
+- batch_01 כולל:
+  09, 38, 41, 42, 56
+- כל העמודים ב-batch בנויים לפי page-number-only ו-bullet layout
