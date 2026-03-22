@@ -5,3 +5,8 @@ visual-out/
 *.backup.*
 .DS_Store
 Thumbs.db
+logs/
+*.log
+*.pid
+*.tar.gz
+*.zip
