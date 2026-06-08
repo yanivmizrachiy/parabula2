@@ -12,131 +12,29 @@
   --boy:#1267d8;
   --girl:#d63384;
   --border:#e4e8f0;
-  --print-start:#38bdf8;
-  --print-mid:#2563eb;
-  --print-end:#0f172a;
-  --whatsapp-start:#34d399;
-  --whatsapp-mid:#16a34a;
-  --whatsapp-end:#064e3b;
+  --print:#1e40af;
+  --whatsapp:#047857;
 }
 *{box-sizing:border-box}
 html{font-size:16px;-webkit-text-size-adjust:100%}
-body{
-  margin:0;
-  direction:rtl;
-  background:#fff;
-  color:var(--ink);
-  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans Hebrew",sans-serif;
-  line-height:1.5;
-}
-.topbar{
-  position:sticky;
-  top:0;
-  z-index:5;
-  background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);
-  backdrop-filter:blur(12px);
-  border-bottom:1px solid var(--border);
-  padding:10px;
-  box-shadow:0 8px 26px rgba(15,23,42,.08);
-}
-.actions{
-  width:min(100%,920px);
-  margin:0 auto;
-  display:grid;
-  grid-template-columns:1fr 1.55fr;
-  gap:10px;
-  align-items:center;
-}
-.action-button{
-  width:100%;
-  border:1px solid rgba(255,255,255,.35);
-  border-radius:20px;
-  color:#fff;
-  font-size:1.22rem;
-  font-weight:950;
-  line-height:1;
-  padding:18px 16px;
-  text-align:center;
-  text-decoration:none;
-  cursor:pointer;
-  touch-action:manipulation;
-  -webkit-tap-highlight-color:transparent;
-  letter-spacing:.01em;
-  transition:transform .12s ease, filter .12s ease, box-shadow .12s ease;
-}
-.print-button{
-  background:linear-gradient(135deg,var(--print-start) 0%,var(--print-mid) 45%,var(--print-end) 100%);
-  box-shadow:0 12px 26px rgba(37,99,235,.30), inset 0 1px 0 rgba(255,255,255,.25);
-}
-.whatsapp-button{
-  background:linear-gradient(135deg,var(--whatsapp-start) 0%,var(--whatsapp-mid) 46%,var(--whatsapp-end) 100%);
-  font-size:1.36rem;
-  padding:22px 16px;
-  box-shadow:0 14px 30px rgba(22,163,74,.34), inset 0 1px 0 rgba(255,255,255,.24);
-}
-.action-button:hover{filter:saturate(1.08) brightness(1.03)}
-.action-button:active{transform:translateY(1px) scale(.995)}
-.action-button:focus-visible{outline:3px solid rgba(59,130,246,.36);outline-offset:3px}
-.sheet{
-  width:min(100%,920px);
-  margin:0 auto;
-  padding:14px 10px 38px;
-  background:white;
-}
-.poems{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:12px;
-}
-.poem{
-  background:var(--paper);
-  border:1px solid var(--border);
-  border-radius:16px;
-  padding:14px 12px;
-  break-inside:avoid;
-  page-break-inside:avoid;
-}
-.poem p{
-  margin:.1rem 0;
-  font-size:1.06rem;
-}
-.student-name{
-  font-weight:950;
-  padding:0 .04em;
-}
+body{margin:0;direction:rtl;background:#fff;color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans Hebrew",sans-serif;line-height:1.5}
+.topbar{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--border);padding:10px}
+.actions{width:min(100%,920px);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:stretch}
+.action-button{width:100%;min-height:58px;border:0;border-radius:14px;color:#fff;font-size:1.08rem;font-weight:900;line-height:1.15;padding:14px 10px;text-align:center;text-decoration:none;cursor:pointer;display:flex;align-items:center;justify-content:center;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.print-button{background:var(--print)}
+.whatsapp-button{background:var(--whatsapp)}
+.action-button:active{filter:brightness(.92)}
+.action-button:focus-visible{outline:3px solid #94a3b8;outline-offset:2px}
+.sheet{width:min(100%,920px);margin:0 auto;padding:14px 10px 38px;background:white}
+.poems{display:grid;grid-template-columns:1fr;gap:12px}
+.poem{background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:14px 12px;break-inside:avoid;page-break-inside:avoid}
+.poem p{margin:.1rem 0;font-size:1.06rem}
+.student-name{font-weight:950;padding:0 .04em}
 .student-name.boy{color:var(--boy)}
 .student-name.girl{color:var(--girl)}
-@media (max-width:520px){
-  .actions{grid-template-columns:1fr;gap:8px}
-  .action-button{font-size:1.18rem;padding:18px 14px;border-radius:18px}
-  .whatsapp-button{font-size:1.36rem;padding:23px 14px}
-  .sheet{padding:12px 8px 32px}
-  .poem{padding:13px 11px;border-radius:14px}
-}
-@media (min-width:760px){
-  .poems{grid-template-columns:1fr 1fr}
-  .poem p{font-size:1rem}
-}
-@media print{
-  @page{size:A4 portrait;margin:9mm}
-  html,body{background:#fff;color:#000;width:210mm}
-  .topbar{display:none!important}
-  .sheet{width:100%;max-width:none;padding:0;margin:0}
-  .poems{display:grid;grid-template-columns:1fr 1fr;gap:4.5mm}
-  .poem{
-    border:1px solid #d7d7d7;
-    border-radius:5px;
-    padding:4.2mm;
-    box-shadow:none;
-  }
-  .poem p{
-    font-size:9.6pt;
-    line-height:1.28;
-    margin:0 0 1.2mm 0;
-  }
-  .student-name.boy{color:#005bbb!important}
-  .student-name.girl{color:#c2185b!important}
-}
+@media (max-width:380px){.action-button{font-size:1rem;min-height:56px;padding:12px 8px}.sheet{padding:12px 8px 32px}.poem{padding:13px 11px;border-radius:14px}}
+@media (min-width:760px){.poems{grid-template-columns:1fr 1fr}.poem p{font-size:1rem}}
+@media print{@page{size:A4 portrait;margin:9mm}html,body{background:#fff;color:#000;width:210mm}.topbar{display:none!important}.sheet{width:100%;max-width:none;padding:0;margin:0}.poems{display:grid;grid-template-columns:1fr 1fr;gap:4.5mm}.poem{border:1px solid #d7d7d7;border-radius:5px;padding:4.2mm;box-shadow:none}.poem p{font-size:9.6pt;line-height:1.28;margin:0 0 1.2mm 0}.student-name.boy{color:#005bbb!important}.student-name.girl{color:#c2185b!important}}
 </style>
 </head>
 <body>
@@ -146,218 +44,74 @@ body{
     <a class="action-button whatsapp-button" id="whatsappButton" href="https://wa.me/?text=https%3A%2F%2Fyanivmizrachiy.github.io%2Fparabula2%2F" target="_blank" rel="noopener">שלח לווטסאפ</a>
   </div>
 </header>
-
 <main class="sheet">
-  <section class="poems" id="poems">
-<article class="poem" data-student="איתן" data-gender="boy">
-<p><span class="student-name boy">איתן</span> הוא אלוף המחשבים,</p>
-<p>וכולם אותו ממש מחבבים.</p>
-<p>הוא תמיד יודע להצחיק,</p>
-<p>בלי לעצור ובלי להפסיק,</p>
-<p>ובאופן קבוע — באנימה שקוע.</p>
-</article>
-<article class="poem" data-student="הראל" data-gender="boy">
-<p><span class="student-name boy">הראל</span> הביא לכיתה את ברונדה,</p>
-<p>בובת הכלב — הקמע של הכיתה.</p>
-<p>בדיחות הוא זורק בכל רגע ושעה,</p>
-<p>ולמה צריך ללמוד? זו אצלו שאלה קבועה,</p>
-<p>עם <span class="student-name boy">הראל</span> בכיתה — תמיד חגיגה.</p>
-</article>
-<article class="poem" data-student="עידו" data-gender="boy">
-<p><span class="student-name boy">עידו</span> המוכשר הוא ספורטאי,</p>
-<p>בלי גבול ובלי תנאי.</p>
-<p>על המזרן ובמגרש משקיע בלי די,</p>
-<p>בחברים סביבו תמיד מתחשב,</p>
-<p>חבר נאמן — מכל הלב.</p>
-</article>
-<article class="poem" data-student="עוז" data-gender="boy">
-<p>אם מחפשים את <span class="student-name boy">עוז</span> בבקרים,</p>
-<p>כנראה נמצא אותו עם החברים.</p>
-<p>בכל השכבה יש לו קשרים,</p>
-<p>לא נגמרים התירוצים והסיפורים,</p>
-<p>וכל הסיבות שבעולם לאיחורים.</p>
-</article>
-<article class="poem" data-student="שילת" data-gender="girl">
-<p><span class="student-name girl">שילת</span> המתולתלת,</p>
-<p>באודיסאה מתרגלת.</p>
-<p>חובבת ספרים — כך מספרים,</p>
-<p>חשוב לה להיות מצטיינת,</p>
-<p>ומעל הכול — חברה מושלמת.</p>
-</article>
-<article class="poem" data-student="אור" data-gender="girl">
-<p><span class="student-name girl">אור</span> היא זמרת,</p>
-<p>אלופה ומוכשרת.</p>
-<p>ואצלה הקול — זה לא הכול,</p>
-<p>כשמה כן היא — מאירה,</p>
-<p>כיף ממש עם כזו חברה.</p>
-</article>
-<article class="poem" data-student="עדן" data-gender="girl">
-<p><span class="student-name girl">עדן</span> מנגנת בפסנתר ובגיטרה,</p>
-<p>ואפילו גם שרה.</p>
-<p>מספיקה בהכול להתאמן,</p>
-<p>זה פשוט לא ייאמן,</p>
-<p>ובזכותה יש אווירה — אחלה חברה.</p>
-</article>
-<article class="poem" data-student="אופיר" data-gender="boy">
-<p><span class="student-name boy">אופיר</span> מהארי פוטר מתלהב,</p>
-<p>חידות ואתגרים אוהב.</p>
-<p>מתמטיקה עבורו זה כיף,</p>
-<p>הוא משקיע ולא מחפף,</p>
-<p>ויודע לתת גם כתף.</p>
-</article>
-<article class="poem" data-student="זיו" data-gender="boy">
-<p>כדורסל בשביל <span class="student-name boy">זיו</span>,</p>
-<p>זה תמיד משהו מגניב.</p>
-<p>הוא קולע המון,</p>
-<p>וחובב גם פוקימון,</p>
-<p>חבר נאמן — וצוחק בלי חשבון.</p>
-</article>
-<article class="poem" data-student="לינוי" data-gender="girl">
-<p><span class="student-name girl">לינוי</span> מבשלת דברים טעימים,</p>
-<p>ומכינה באהבה לכל החברים.</p>
-<p>אושר כהן אצלה תמיד מתנגן,</p>
-<p>בסטודיו היא אוהבת להתאמן,</p>
-<p>מוכשרת ממש — שזה לא ייאמן.</p>
-</article>
-<article class="poem" data-student="רותם" data-gender="boy">
-<p><span class="student-name boy">רותם</span> חבר מיוחד וצנוע,</p>
-<p>אלוף כדורסל — לכולם זה ידוע.</p>
-<p>עם ידע עולם רחב ועשיר,</p>
-<p>בלימודים הוא עוזר ומסביר,</p>
-<p><span class="student-name boy">רותם</span> כזה — זה משהו נדיר.</p>
-</article>
-<article class="poem" data-student="לירז" data-gender="boy">
-<p><span class="student-name boy">לירז</span> חכם ופותר במהירות,</p>
-<p>במתמטיקה הכול בקלילות.</p>
-<p>חולם להיות עורך דין מגניב,</p>
-<p>יודע במיוחד לעזור ולהקשיב,</p>
-<p>רגיש לסביבה — ודואג מסביב.</p>
-</article>
-<article class="poem" data-student="שירה" data-gender="girl">
-<p>עם <span class="student-name girl">שירה</span> תמיד שמח,</p>
-<p>נציגתנו בהדרכת השל״ח.</p>
-<p>חברות סביבה מקיפות,</p>
-<p>והיא אלופה בלאפות,</p>
-<p>עושה הכול, עם לב גדול!</p>
-</article>
-<article class="poem" data-student="תמר" data-gender="girl">
-<p><span class="student-name girl">תמר</span> אוהבת טיפוח, יופי ואיפור,</p>
-<p>לשיעור אמנות יש לה חיבור.</p>
-<p>בלי איפור לא מגיעה — זה ברור,</p>
-<p>הכול אצלה בסטייל, צבע וציור,</p>
-<p><span class="student-name girl">תמר</span> כזו — עם טעם ברור.</p>
-</article>
-<article class="poem" data-student="שקד" data-gender="girl">
-<p><span class="student-name girl">שקד</span> קוראת ספרים — שקדנית כשמה,</p>
-<p>בכל שיעור כותבת ומסכמת ברמה.</p>
-<p>אחרי שלוש שנים עוברת למודיעין,</p>
-<p>חשוב לה לחשוב, לסכם ולהבין,</p>
-<p>וחברות טובות בכיתה — חבורה קבועה.</p>
-</article>
-<article class="poem" data-student="אביתר" data-gender="boy">
-<p><span class="student-name boy">אביתר</span> גר באדם,</p>
-<p>ומכבד תמיד את כולם.</p>
-<p>בלימודים מצטיין, בשקט ובחוכמה,</p>
-<p>מעיר הערות חכמות שתורמות לאווירה,</p>
-<p>ובדיחות שלו בכיתה — מוסיפות שמחה.</p>
-</article>
-<article class="poem" data-student="אורי" data-gender="boy">
-<p><span class="student-name boy">אורי</span> ספורטאי בג׳ודו ובכדורסל,</p>
-<p>בין אימון לשיעור הוא לא מתבלבל.</p>
-<p>את המורים שואל שאלות בלי הפסקות,</p>
-<p>בגלל האימונים לומד בלילות,</p>
-<p>בין מגרש ומזרן — <span class="student-name boy">אורי</span> מלא יכולות.</p>
-</article>
-<article class="poem" data-student="אייל" data-gender="boy">
-<p><span class="student-name boy">אייל</span> הוא אלוף המחשבים,</p>
-<p>וברווזים אצלו תמיד אהובים.</p>
-<p>בפינג־פונג הוא נכנס לעניינים,</p>
-<p>בין קליק, קוואק וכדורים,</p>
-<p><span class="student-name boy">אייל</span> כזה — מלא תחביבים.</p>
-</article>
-<article class="poem" data-student="איתי" data-gender="boy">
-<p><span class="student-name boy">איתי</span> מבריק ושחקן מצטיין,</p>
-<p>כמעט כל יום בכדורגל מתאמן.</p>
-<p>גם במבחנים הוא מפתיע שוב ושוב,</p>
-<p>בעתיד בקבוצה מפורסמת יהיה חשוב,</p>
-<p>ונבקש חתימה — כי הוא יהיה כוכב אהוב.</p>
-</article>
-<article class="poem" data-student="אריק" data-gender="boy">
-<p><span class="student-name boy">אריק</span> הוא שחקן כדורגל מהיר,</p>
-<p>שיעורי בית מכין בקצב אדיר.</p>
-<p>אוהב לנשנש דברים טעימים,</p>
-<p>בהפסקות משתולל כשהמורים לא רואים,</p>
-<p><span class="student-name boy">אריק</span> כזה — תמיד בעניינים.</p>
-</article>
-<article class="poem" data-student="הדר" data-gender="girl">
-<p><span class="student-name girl">הדר</span> רקדנית וגם שקדנית,</p>
-<p>מתאמנת הרבה ברצינות אמיתית.</p>
-<p>עם הלהקה שלה זוכה בפרסים,</p>
-<p>חשוב לה להצליח בלימודים,</p>
-<p>ואת הכיתה באמנות מקשטת בצבעים.</p>
-</article>
-<article class="poem" data-student="יהלי" data-gender="boy">
-<p><span class="student-name boy">יהלי</span> אוהב כדורסל — זה ידוע,</p>
-<p>ולסקי במדינות שונות נוסע קבוע.</p>
-<p>גם כשגר רחוק, בזמן הוא מגיע,</p>
-<p>בלימודים בקלות מצליח ומפתיע,</p>
-<p><span class="student-name boy">יהלי</span> כזה — תמיד מדויק וקולע.</p>
-</article>
-<article class="poem" data-student="נועם אליהו" data-gender="boy">
-<p><span class="student-name boy">נועם אליהו</span> מומחה לבית״ר ירושלים,</p>
-<p>בתולדות הקבוצה שולט בפרטים הקטנים.</p>
-<p>אוהב כדורגל וגם כדורסל,</p>
-<p>לומד מעולה בלי רעש בכלל,</p>
-<p>בלי רוח וצלצולים — פשוט גדול.</p>
-</article>
-<article class="poem" data-student="נועם מרטיניוק" data-gender="boy">
-<p><span class="student-name boy">נועם מרטיניוק</span> טייל השנה במדינות,</p>
-<p>וגם בארץ יצא לחופשות.</p>
-<p>בג׳ודו מתאמן ואוהב לבלות,</p>
-<p>למורים נחמד ושואל לשלומם,</p>
-<p>נועם כזה — עושה טוב לכולם.</p>
-</article>
-<article class="poem" data-student="נועם ששון" data-gender="girl">
-<p><span class="student-name girl">נועם ששון</span> תמיד עם מסטיק,</p>
-<p>וכשהצלצול מגיע — קופצת בצ׳יק.</p>
-<p>חשוב לה להצליח במבחנים,</p>
-<p>מדברת בשם הכיתה מול המורים,</p>
-<p>ואומרת בקול את מה שכולם חושבים.</p>
-</article>
-<article class="poem" data-student="נתנאל" data-gender="boy">
-<p><span class="student-name boy">נתנאל</span> חכם ושקט, עם ידע עשיר,</p>
-<p>ובכל נושא יודע להסביר.</p>
-<p>בחידון ירושלים את בית הספר ייצג,</p>
-<p>וזה בהחלט היה הישג,</p>
-<p>ממוצא בריטי — תלמיד רציני ואדיר.</p>
-</article>
-<article class="poem" data-student="עידן מכחל" data-gender="boy">
-<p><span class="student-name boy">עידן מכחל</span> מופנם ושקט,</p>
-<p>וכשהוא מדבר — זה חכם ומדויק.</p>
-<p>שקדן, עם הישגים טובים,</p>
-<p>נועם הליכות בכל המעשים,</p>
-<p>עידן כזה — פשוט מרשים.</p>
-</article>
-<article class="poem" data-student="עידן רייטר" data-gender="boy">
-<p><span class="student-name boy">עידן רייטר</span> מצייר בכישרון,</p>
-<p>במשחקי מחשב יש לו דמיון.</p>
-<p>בעריכת סרטים הוא בעניינים,</p>
-<p>קובייה הונגרית גם בין התחביבים,</p>
-<p>עידן כזה — מלא כישורים.</p>
-</article>
-  </section>
+  <section class="poems" id="poems" aria-label="שירי תלמידים"></section>
 </main>
-
 <script>
 (function(){
-  const poems = Array.from(document.querySelectorAll('.poem'));
+  const pageUrl = 'https://yanivmizrachiy.github.io/parabula2/';
+  const poemsData = [
+    {name:'איתן',gender:'boy',lines:['איתן הוא אלוף המחשבים,','וכולם אותו ממש מחבבים.','הוא תמיד יודע להצחיק,','בלי לעצור ובלי להפסיק,','ובאופן קבוע — באנימה שקוע.']},
+    {name:'הראל',gender:'boy',lines:['הראל הביא לכיתה את ברונדה,','בובת הכלב — הקמע של הכיתה.','בדיחות הוא זורק בכל רגע ושעה,','ולמה צריך ללמוד? זו אצלו שאלה קבועה,','עם הראל בכיתה — תמיד חגיגה.']},
+    {name:'עידו',gender:'boy',lines:['עידו המוכשר הוא ספורטאי,','בלי גבול ובלי תנאי.','על המזרן ובמגרש משקיע בלי די,','בחברים סביבו תמיד מתחשב,','חבר נאמן — מכל הלב.']},
+    {name:'עוז',gender:'boy',lines:['אם מחפשים את עוז בבקרים,','כנראה נמצא אותו עם החברים.','בכל השכבה יש לו קשרים,','לא נגמרים התירוצים והסיפורים,','וכל הסיבות שבעולם לאיחורים.']},
+    {name:'שילת',gender:'girl',lines:['שילת המתולתלת,','באודיסאה מתרגלת.','חובבת ספרים — כך מספרים,','חשוב לה להיות מצטיינת,','ומעל הכול — חברה מושלמת.']},
+    {name:'אור',gender:'girl',lines:['אור היא זמרת,','אלופה ומוכשרת.','ואצלה הקול — זה לא הכול,','כשמה כן היא — מאירה,','כיף ממש עם כזו חברה.']},
+    {name:'עדן',gender:'girl',lines:['עדן מנגנת בפסנתר ובגיטרה,','ואפילו גם שרה.','מספיקה בהכול להתאמן,','זה פשוט לא ייאמן,','ובזכותה יש אווירה — אחלה חברה.']},
+    {name:'אופיר',gender:'boy',lines:['אופיר מהארי פוטר מתלהב,','חידות ואתגרים אוהב.','מתמטיקה עבורו זה כיף,','הוא משקיע ולא מחפף,','ויודע לתת גם כתף.']},
+    {name:'זיו',gender:'boy',lines:['כדורסל בשביל זיו,','זה תמיד משהו מגניב.','הוא קולע המון,','וחובב גם פוקימון,','חבר נאמן — וצוחק בלי חשבון.']},
+    {name:'לינוי',gender:'girl',lines:['לינוי מבשלת דברים טעימים,','ומכינה באהבה לכל החברים.','אושר כהן אצלה תמיד מתנגן,','בסטודיו היא אוהבת להתאמן,','מוכשרת ממש — שזה לא ייאמן.']},
+    {name:'רותם',gender:'boy',lines:['רותם חבר מיוחד וצנוע,','אלוף כדורסל — לכולם זה ידוע.','עם ידע עולם רחב ועשיר,','בלימודים הוא עוזר ומסביר,','רותם כזה — זה משהו נדיר.']},
+    {name:'לירז',gender:'boy',lines:['לירז חכם ופותר במהירות,','במתמטיקה הכול בקלילות.','חולם להיות עורך דין מגניב,','יודע במיוחד לעזור ולהקשיב,','רגיש לסביבה — ודואג מסביב.']},
+    {name:'שירה',gender:'girl',lines:['עם שירה תמיד שמח,','נציגתנו בהדרכת השל״ח.','חברות סביבה מקיפות,','והיא אלופה בלאפות,','עושה הכול, עם לב גדול!']},
+    {name:'תמר',gender:'girl',lines:['תמר אוהבת טיפוח, יופי ואיפור,','לשיעור אמנות יש לה חיבור.','בלי איפור לא מגיעה — זה ברור,','הכול אצלה בסטייל, צבע וציור,','תמר כזו — עם טעם ברור.']},
+    {name:'שקד',gender:'girl',lines:['שקד קוראת ספרים — שקדנית כשמה,','בכל שיעור כותבת ומסכמת ברמה.','אחרי שלוש שנים עוברת למודיעין,','חשוב לה לחשוב, לסכם ולהבין,','וחברות טובות בכיתה — חבורה קבועה.']},
+    {name:'אביתר',gender:'boy',lines:['אביתר גר באדם,','ומכבד תמיד את כולם.','בלימודים מצטיין, בשקט ובחוכמה,','מעיר הערות חכמות שתורמות לאווירה,','ובדיחות שלו בכיתה — מוסיפות שמחה.']},
+    {name:'אורי',gender:'boy',lines:['אורי ספורטאי בג׳ודו ובכדורסל,','בין אימון לשיעור הוא לא מתבלבל.','את המורים שואל שאלות בלי הפסקות,','בגלל האימונים לומד בלילות,','בין מגרש ומזרן — אורי מלא יכולות.']},
+    {name:'אייל',gender:'boy',lines:['אייל הוא אלוף המחשבים,','וברווזים אצלו תמיד אהובים.','בפינג־פונג הוא נכנס לעניינים,','בין קליק, קוואק וכדורים,','אייל כזה — מלא תחביבים.']},
+    {name:'איתי',gender:'boy',lines:['איתי מבריק ושחקן מצטיין,','כמעט כל יום בכדורגל מתאמן.','גם במבחנים הוא מפתיע שוב ושוב,','בעתיד בקבוצה מפורסמת יהיה חשוב,','ונבקש חתימה — כי הוא יהיה כוכב אהוב.']},
+    {name:'אריק',gender:'boy',lines:['אריק הוא שחקן כדורגל מהיר,','שיעורי בית מכין בקצב אדיר.','אוהב לנשנש דברים טעימים,','בהפסקות משתולל כשהמורים לא רואים,','אריק כזה — תמיד בעניינים.']},
+    {name:'הדר',gender:'girl',lines:['הדר רקדנית וגם שקדנית,','מתאמנת הרבה ברצינות אמיתית.','עם הלהקה שלה זוכה בפרסים,','חשוב לה להצליח בלימודים,','ואת הכיתה באמנות מקשטת בצבעים.']},
+    {name:'יהלי',gender:'boy',lines:['יהלי אוהב כדורסל — זה ידוע,','ולסקי במדינות שונות נוסע קבוע.','גם כשגר רחוק, בזמן הוא מגיע,','בלימודים בקלות מצליח ומפתיע,','יהלי כזה — תמיד מדויק וקולע.']},
+    {name:'נועם אליהו',gender:'boy',lines:['נועם אליהו מומחה לבית״ר ירושלים,','בתולדות הקבוצה שולט בפרטים הקטנים.','אוהב כדורגל וגם כדורסל,','לומד מעולה בלי רעש בכלל,','בלי רוח וצלצולים — פשוט גדול.']},
+    {name:'נועם מרטיניוק',gender:'boy',lines:['נועם מרטיניוק טייל השנה במדינות,','וגם בארץ יצא לחופשות.','בג׳ודו מתאמן ואוהב לבלות,','למורים נחמד ושואל לשלומם,','נועם כזה — עושה טוב לכולם.']},
+    {name:'נועם ששון',gender:'girl',lines:['נועם ששון תמיד עם מסטיק,','וכשהצלצול מגיע — קופצת בצ׳יק.','חשוב לה להצליח במבחנים,','מדברת בשם הכיתה מול המורים,','ואומרת בקול את מה שכולם חושבים.']},
+    {name:'נתנאל',gender:'boy',lines:['נתנאל חכם ושקט, עם ידע עשיר,','ובכל נושא יודע להסביר.','בחידון ירושלים את בית הספר ייצג,','וזה בהחלט היה הישג,','ממוצא בריטי — תלמיד רציני ואדיר.']},
+    {name:'עידן מכחל',gender:'boy',lines:['עידן מכחל מופנם ושקט,','וכשהוא מדבר — זה חכם ומדויק.','שקדן, עם הישגים טובים,','נועם הליכות בכל המעשים,','עידן כזה — פשוט מרשים.']},
+    {name:'עידן רייטר',gender:'boy',lines:['עידן רייטר מצייר בכישרון,','במשחקי מחשב יש לו דמיון.','בעריכת סרטים הוא בעניינים,','קובייה הונגרית גם בין התחביבים,','עידן כזה — מלא כישורים.']}
+  ];
+
+  const poemsRoot = document.getElementById('poems');
   const printButton = document.getElementById('printButton');
   const whatsappButton = document.getElementById('whatsappButton');
-  const pageUrl = 'https://yanivmizrachiy.github.io/parabula2/';
-  const shareText = 'שירי תלמידים להדפסה: ' + pageUrl;
+
+  function escapeHtml(value){
+    return String(value).replace(/[&<>"']/g, (char)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+  }
+
+  function lineWithName(line, name, gender){
+    const safeLine = escapeHtml(line);
+    const safeName = escapeHtml(name);
+    const className = gender === 'girl' ? 'girl' : 'boy';
+    return safeLine.replace(safeName, '<span class="student-name '+className+'">'+safeName+'</span>');
+  }
+
+  function render(){
+    poemsRoot.innerHTML = poemsData.map((poem)=>{
+      let marked = false;
+      const lines = poem.lines.map((line)=>{
+        const contains = !marked && line.includes(poem.name);
+        if(contains){ marked = true; return '<p>'+lineWithName(line, poem.name, poem.gender)+'</p>'; }
+        return '<p>'+escapeHtml(line)+'</p>';
+      }).join('');
+      return '<article class="poem" data-student="'+escapeHtml(poem.name)+'" data-gender="'+poem.gender+'">'+lines+'</article>';
+    }).join('');
+  }
 
   function validate(){
     const problems = [];
+    const poems = Array.from(document.querySelectorAll('.poem'));
+    if(poems.length !== 28) problems.push('מספר השירים אינו 28');
     poems.forEach((poem)=>{
       const name = poem.dataset.student || 'ללא שם';
       const lines = poem.querySelectorAll('p');
@@ -372,10 +126,14 @@ body{
     return true;
   }
 
+  render();
+  validate();
+
   printButton.addEventListener('click', ()=>{
     if(validate()) window.print();
   });
 
+  const shareText = 'שירי תלמידים להדפסה: ' + pageUrl;
   whatsappButton.href = 'https://wa.me/?text=' + encodeURIComponent(shareText);
   whatsappButton.addEventListener('click', (event)=>{
     event.preventDefault();
@@ -384,8 +142,6 @@ body{
     const opened = window.open(url, '_blank', 'noopener');
     if(!opened) window.location.href = url;
   });
-
-  validate();
 })();
 </script>
 </body>
