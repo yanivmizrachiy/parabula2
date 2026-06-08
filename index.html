@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>שירי תלמידים להדפסה</title>
+<meta name="description" content="דף שירי תלמידים להדפסה.">
+<style>
+:root{
+  --bg:#ffffff;
+  --paper:#ffffff;
+  --ink:#101827;
+  --muted:#5b6475;
+  --boy:#1267d8;
+  --girl:#d63384;
+  --border:#e4e8f0;
+  --button:#0f172a;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{
+  margin:0;
+  direction:rtl;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans Hebrew",sans-serif;
+  line-height:1.55;
+}
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:5;
+  background:#ffffffee;
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+  padding:12px;
+}
+.topbar-inner{
+  max-width:920px;
+  margin:0 auto;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content:space-between;
+}
+.page-title{
+  margin:0;
+  font-size:1.1rem;
+  font-weight:900;
+}
+.print-button{
+  border:0;
+  border-radius:16px;
+  background:var(--button);
+  color:#fff;
+  font-size:1.15rem;
+  font-weight:900;
+  padding:14px 28px;
+  cursor:pointer;
+}
+.status{
+  max-width:920px;
+  margin:8px auto 0;
+  color:#166534;
+  font-size:.9rem;
+  font-weight:700;
+}
+.sheet{
+  width:min(100%,920px);
+  margin:0 auto;
+  padding:18px 12px 44px;
+  background:white;
+}
+.poems{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+}
+.poem{
+  background:var(--paper);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:16px 14px;
+  break-inside:avoid;
+  page-break-inside:avoid;
+}
+.poem p{
+  margin:.12rem 0;
+  font-size:1.09rem;
+}
+.student-name{
+  font-weight:950;
+  padding:0 .04em;
+}
+.student-name.boy{color:var(--boy)}
+.student-name.girl{color:var(--girl)}
+@media (min-width:760px){
+  .poems{grid-template-columns:1fr 1fr}
+  .poem p{font-size:1.02rem}
+}
+@media print{
+  @page{size:A4;margin:12mm}
+  body{background:#fff;color:#000}
+  .topbar{display:none!important}
+  .sheet{width:100%;padding:0;margin:0}
+  .poems{grid-template-columns:1fr 1fr;gap:7mm}
+  .poem{
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:6mm;
+  }
+  .poem p{
+    font-size:11pt;
+    line-height:1.38;
+  }
+  .student-name.boy{color:#005bbb}
+  .student-name.girl{color:#c2185b}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <p class="page-title">שירי תלמידים להדפסה</p>
+    <button class="print-button" id="printButton" type="button">הדפס</button>
+  </div>
+  <div class="status" id="status">בודק תקינות...</div>
+</header>
+
+<main class="sheet">
+  <section class="poems" id="poems">
+<article class="poem" data-student="איתן" data-gender="boy">
+<p><span class="student-name boy">איתן</span> הוא אלוף המחשבים,</p>
+<p>וכולם אותו ממש מחבבים.</p>
+<p>הוא תמיד יודע להצחיק,</p>
+<p>בלי לעצור ובלי להפסיק,</p>
+<p>ובאופן קבוע - באנימה שקוע.</p>
+</article>
+<article class="poem" data-student="הראל" data-gender="boy">
+<p><span class="student-name boy">הראל</span> הביא לכיתה את ברונדה,</p>
+<p>בובת הכלב - הקמע של הכיתה.</p>
+<p>בדיחות הוא זורק בכל רגע ושעה,</p>
+<p>ולמה צריך ללמוד? זו אצלו שאלה קבועה,</p>
+<p>עם <span class="student-name boy">הראל</span> בכיתה - תמיד חגיגה.</p>
+</article>
+<article class="poem" data-student="עידו" data-gender="boy">
+<p><span class="student-name boy">עידו</span> המוכשר הוא ספורטאי,</p>
+<p>בלי גבול ובלי תנאי.</p>
+<p>על המזרן ובמגרש משקיע בלי די,</p>
+<p>בחברים סביבו תמיד מתחשב,</p>
+<p>חבר נאמן - מכל הלב.</p>
+</article>
+<article class="poem" data-student="עוז" data-gender="boy">
+<p>אם מחפשים את <span class="student-name boy">עוז</span> בבקרים,</p>
+<p>כנראה נמצא אותו עם החברים.</p>
+<p>בכל השכבה יש לו קשרים,</p>
+<p>לא נגמרים התירוצים והסיפורים,</p>
+<p>וכל הסיבות שבעולם לאיחורים.</p>
+</article>
+<article class="poem" data-student="שילת" data-gender="girl">
+<p><span class="student-name girl">שילת</span> המתולתלת,</p>
+<p>באודיסאה מתרגלת.</p>
+<p>חובבת ספרים - כך מספרים,</p>
+<p>חשוב לה להיות מצטיינת,</p>
+<p>ומעל הכול - חברה מושלמת.</p>
+</article>
+<article class="poem" data-student="אור" data-gender="girl">
+<p><span class="student-name girl">אור</span> היא זמרת,</p>
+<p>אלופה ומוכשרת.</p>
+<p>ואצלה הקול - זה לא הכול,</p>
+<p>כשמה כן היא - מאירה,</p>
+<p>כיף ממש עם כזו חברה.</p>
+</article>
+<article class="poem" data-student="עדן" data-gender="girl">
+<p><span class="student-name girl">עדן</span> מנגנת בפסנתר ובגיטרה,</p>
+<p>ואפילו גם שרה.</p>
+<p>מספיקה בהכול להתאמן,</p>
+<p>זה פשוט לא ייאמן,</p>
+<p>ובזכותה יש אווירה - אחלה חברה.</p>
+</article>
+<article class="poem" data-student="אופיר" data-gender="boy">
+<p><span class="student-name boy">אופיר</span> מהארי פוטר מתלהב,</p>
+<p>חידות ואתגרים אוהב.</p>
+<p>מתמטיקה עבורו זה כיף,</p>
+<p>הוא משקיע ולא מחפף,</p>
+<p>ויודע לתת גם כתף.</p>
+</article>
+<article class="poem" data-student="זיו" data-gender="boy">
+<p>כדורסל בשביל <span class="student-name boy">זיו</span>,</p>
+<p>זה תמיד משהו מגניב.</p>
+<p>הוא קולע המון,</p>
+<p>וחובב גם פוקימון,</p>
+<p>חבר נאמן - וצוחק בלי חשבון.</p>
+</article>
+<article class="poem" data-student="לינוי" data-gender="girl">
+<p><span class="student-name girl">לינוי</span> מבשלת דברים טעימים,</p>
+<p>ומכינה באהבה לכל החברים.</p>
+<p>אושר כהן אצלה תמיד מתנגן,</p>
+<p>בסטודיו היא אוהבת להתאמן,</p>
+<p>מוכשרת ממש - שזה לא ייאמן.</p>
+</article>
+<article class="poem" data-student="רותם" data-gender="boy">
+<p><span class="student-name boy">רותם</span> חבר מיוחד וצנוע,</p>
+<p>אלוף כדורסל - לכולם זה ידוע.</p>
+<p>עם ידע עולם רחב ועשיר,</p>
+<p>בלימודים הוא עוזר ומסביר,</p>
+<p><span class="student-name boy">רותם</span> כזה - זה משהו נדיר.</p>
+</article>
+<article class="poem" data-student="לירז" data-gender="boy">
+<p><span class="student-name boy">לירז</span> חכם ופותר במהירות,</p>
+<p>במתמטיקה הכול בקלילות.</p>
+<p>חולם להיות עורך דין מגניב,</p>
+<p>יודע במיוחד לעזור ולהקשיב,</p>
+<p>רגיש לסביבה - ודואג מסביב.</p>
+</article>
+<article class="poem" data-student="שירה" data-gender="girl">
+<p>עם <span class="student-name girl">שירה</span> תמיד שמח,</p>
+<p>נציגתנו בהדרכת השל״ח.</p>
+<p>חברות סביבה מקיפות,</p>
+<p>והיא אלופה בלאפות,</p>
+<p>עושה הכול, עם לב גדול!</p>
+</article>
+<article class="poem" data-student="תמר" data-gender="girl">
+<p><span class="student-name girl">תמר</span> אוהבת טיפוח, יופי ואיפור,</p>
+<p>לשיעור אמנות יש לה חיבור.</p>
+<p>בלי איפור לא מגיעה - זה ברור,</p>
+<p>הכול אצלה בסטייל, צבע וציור,</p>
+<p><span class="student-name girl">תמר</span> כזו - עם טעם ברור.</p>
+</article>
+<article class="poem" data-student="שקד" data-gender="girl">
+<p><span class="student-name girl">שקד</span> קוראת ספרים - <span class="student-name girl">שקד</span>נית כשמה,</p>
+<p>בכל שיעור כותבת ומסכמת ברמה.</p>
+<p>אחרי שלוש שנים עוברת למודיעין,</p>
+<p>חשוב לה לחשוב, לסכם ולהבין,</p>
+<p>וחברות טובות בכיתה - חבורה קבועה.</p>
+</article>
+<article class="poem" data-student="אביתר" data-gender="boy">
+<p><span class="student-name boy">אביתר</span> גר באדם,</p>
+<p>ומכבד תמיד את כולם.</p>
+<p>בלימודים מצטיין, בשקט ובחוכמה,</p>
+<p>מעיר הערות חכמות שתורמות לאווירה,</p>
+<p>ובדיחות שלו בכיתה - מוסיפות שמחה.</p>
+</article>
+<article class="poem" data-student="אורי" data-gender="boy">
+<p><span class="student-name boy">אורי</span> ספורטאי בג׳ודו ובכדורסל,</p>
+<p>בין אימון לשיעור הוא לא מתבלבל.</p>
+<p>את המורים שואל שאלות בלי הפסקות,</p>
+<p>בגלל האימונים לומד בלילות,</p>
+<p>בין מגרש ומזרן - <span class="student-name boy">אורי</span> מלא יכולות.</p>
+</article>
+<article class="poem" data-student="אייל" data-gender="boy">
+<p><span class="student-name boy">אייל</span> הוא אלוף המחשבים,</p>
+<p>וברווזים אצלו תמיד אהובים.</p>
+<p>בפינג־פונג הוא נכנס לעניינים,</p>
+<p>בין קליק, קוואק וכדורים,</p>
+<p><span class="student-name boy">אייל</span> כזה - מלא תחביבים.</p>
+</article>
+<article class="poem" data-student="איתי" data-gender="boy">
+<p><span class="student-name boy">איתי</span> מבריק ושחקן מצטיין,</p>
+<p>כמעט כל יום בכדורגל מתאמן.</p>
+<p>גם במבחנים הוא מפתיע שוב ושוב,</p>
+<p>בעתיד בקבוצה מפורסמת יהיה חשוב,</p>
+<p>ונבקש חתימה - כי הוא יהיה כוכב אהוב.</p>
+</article>
+<article class="poem" data-student="אריק" data-gender="boy">
+<p><span class="student-name boy">אריק</span> הוא שחקן כדורגל מהיר,</p>
+<p>שיעורי בית מכין בקצב אדיר.</p>
+<p>אוהב לנשנש דברים טעימים,</p>
+<p>בהפסקות משתולל כשהמורים לא רואים,</p>
+<p><span class="student-name boy">אריק</span> כזה - תמיד בעניינים.</p>
+</article>
+<article class="poem" data-student="הדר" data-gender="girl">
+<p><span class="student-name girl">הדר</span> רקדנית וגם שקדנית,</p>
+<p>מתאמנת הרבה ברצינות אמיתית.</p>
+<p>עם הלהקה שלה זוכה בפרסים,</p>
+<p>חשוב לה להצליח בלימודים,</p>
+<p>ואת הכיתה באמנות מקשטת בצבעים.</p>
+</article>
+<article class="poem" data-student="יהלי" data-gender="boy">
+<p><span class="student-name boy">יהלי</span> אוהב כדורסל - זה ידוע,</p>
+<p>ולסקי במדינות שונות נוסע קבוע.</p>
+<p>גם כשגר רחוק, בזמן הוא מגיע,</p>
+<p>בלימודים בקלות מצליח ומפתיע,</p>
+<p><span class="student-name boy">יהלי</span> כזה - תמיד מדויק וקולע.</p>
+</article>
+<article class="poem" data-student="נועם אליהו" data-gender="boy">
+<p><span class="student-name boy">נועם אליהו</span> מומחה לבית״ר ירושלים,</p>
+<p>בתולדות הקבוצה שולט בפרטים הקטנים.</p>
+<p>אוהב כדורגל וגם כדורסל,</p>
+<p>לומד מעולה בלי רעש בכלל,</p>
+<p>בלי רוח וצלצולים - פשוט גדול.</p>
+</article>
+<article class="poem" data-student="נועם מרטיניוק" data-gender="boy">
+<p><span class="student-name boy">נועם מרטיניוק</span> טייל השנה במדינות,</p>
+<p>וגם בארץ יצא לנופשות.</p>
+<p>בג׳ודו מתאמן ואוהב לבלות,</p>
+<p>למורים נחמד ושואל לשלומם,</p>
+<p>נועם כזה - עושה טוב לכולם.</p>
+</article>
+<article class="poem" data-student="נועם ששון" data-gender="girl">
+<p><span class="student-name girl">נועם ששון</span> תמיד עם מסטיק,</p>
+<p>וכשהצלצול מגיע - קופצת בצ׳יק.</p>
+<p>חשוב לה להצליח במבחנים,</p>
+<p>מדברת בשם הכיתה מול המורים,</p>
+<p>ואומרת בקול את מה שכולם חושבים.</p>
+</article>
+<article class="poem" data-student="נתנאל" data-gender="boy">
+<p><span class="student-name boy">נתנאל</span> חכם ושקט, עם ידע עשיר,</p>
+<p>ובכל נושא יודע להסביר.</p>
+<p>בחידון ירושלים את בית הספר ייצג,</p>
+<p>וזה בהחלט היה הישג,</p>
+<p>ממוצא בריטי - תלמיד רציני ואדיר.</p>
+</article>
+<article class="poem" data-student="עידן מכחל" data-gender="boy">
+<p><span class="student-name boy">עידן מכחל</span> מופנם ושקט,</p>
+<p>וכשהוא מדבר - זה חכם ומדויק.</p>
+<p>שקדן, עם הישגים טובים,</p>
+<p>נועם הליכות בכל המעשים,</p>
+<p>עידן כזה - פשוט מרשים.</p>
+</article>
+<article class="poem" data-student="עידן רייטר" data-gender="boy">
+<p><span class="student-name boy">עידן רייטר</span> מצייר בכישרון,</p>
+<p>במשחקי מחשב יש לו דמיון.</p>
+<p>בעריכת סרטים הוא בעניינים,</p>
+<p>קובייה הונגרית גם בין התחביבים,</p>
+<p>עידן כזה - מלא כישורים.</p>
+</article>
+  </section>
+</main>
+
+<script>
+(function(){
+  const poems = Array.from(document.querySelectorAll('.poem'));
+  const status = document.getElementById('status');
+  const printButton = document.getElementById('printButton');
+
+  function validate(){
+    const problems = [];
+    poems.forEach((poem)=>{
+      const name = poem.dataset.student || 'ללא שם';
+      const lines = poem.querySelectorAll('p');
+      if(lines.length !== 5) problems.push(name + ': ' + lines.length + ' שורות במקום 5');
+      const hasMarkedName = poem.querySelector('.student-name');
+      if(!hasMarkedName) problems.push(name + ': השם לא סומן בצבע בתוך השיר');
+    });
+    if(problems.length){
+      status.textContent = 'נמצאו בעיות: ' + problems.join(' | ');
+      status.style.color = '#b91c1c';
+      return false;
+    }
+    status.textContent = 'בדיקה תקינה: ' + poems.length + ' שירים, כל שיר בדיוק 5 שורות, וכל שם מסומן בצבע בתוך השיר.';
+    return true;
+  }
+
+  printButton.addEventListener('click', ()=>{
+    validate();
+    window.print();
+  });
+
+  validate();
+})();
+</script>
+</body>
+</html>
