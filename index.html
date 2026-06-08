@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>שירי תלמידים להדפסה</title>
-<meta name="description" content="דף שירי תלמידים להדפסה. מותאם לנייד ולהדפסת A4.">
+<meta name="description" content="דף שירי תלמידים להדפסה. מותאם לנייד, לווטסאפ ולהדפסת A4.">
 <style>
 :root{
   --paper:#ffffff;
   --ink:#101827;
-  --muted:#475569;
   --boy:#1267d8;
   --girl:#d63384;
   --border:#e4e8f0;
-  --button:#0f172a;
-  --ok:#166534;
+  --print:#1267d8;
+  --whatsapp:#16a34a;
+  --whatsapp-dark:#12823b;
 }
 *{box-sizing:border-box}
 html{font-size:16px;-webkit-text-size-adjust:100%}
@@ -30,42 +30,42 @@ body{
   position:sticky;
   top:0;
   z-index:5;
-  background:#fffffff2;
+  background:#fffffff7;
   backdrop-filter:blur(10px);
   border-bottom:1px solid var(--border);
-  padding:10px 12px;
+  padding:10px;
 }
-.topbar-inner{
-  max-width:920px;
+.actions{
+  width:min(100%,920px);
   margin:0 auto;
-  display:flex;
-  gap:12px;
+  display:grid;
+  grid-template-columns:1fr 1.45fr;
+  gap:10px;
   align-items:center;
-  justify-content:space-between;
 }
-.page-title{
-  margin:0;
-  font-size:1.05rem;
-  font-weight:900;
-}
-.print-button{
+.action-button{
+  width:100%;
   border:0;
-  border-radius:16px;
-  background:var(--button);
+  border-radius:18px;
   color:#fff;
-  font-size:1.15rem;
-  font-weight:900;
-  padding:13px 28px;
+  font-size:1.22rem;
+  font-weight:950;
+  line-height:1;
+  padding:17px 16px;
+  text-align:center;
+  text-decoration:none;
   cursor:pointer;
-  min-width:116px;
+  box-shadow:0 8px 20px rgba(15,23,42,.16);
+  touch-action:manipulation;
+  -webkit-tap-highlight-color:transparent;
 }
-.status{
-  max-width:920px;
-  margin:7px auto 0;
-  color:var(--ok);
-  font-size:.9rem;
-  font-weight:800;
+.print-button{background:var(--print)}
+.whatsapp-button{
+  background:var(--whatsapp);
+  font-size:1.28rem;
+  padding:19px 16px;
 }
+.print-button:active,.whatsapp-button:active{transform:translateY(1px)}
 .sheet{
   width:min(100%,920px);
   margin:0 auto;
@@ -95,6 +95,13 @@ body{
 }
 .student-name.boy{color:var(--boy)}
 .student-name.girl{color:var(--girl)}
+@media (max-width:520px){
+  .actions{grid-template-columns:1fr;gap:8px}
+  .action-button{font-size:1.18rem;padding:17px 14px}
+  .whatsapp-button{font-size:1.3rem;padding:20px 14px}
+  .sheet{padding:12px 8px 32px}
+  .poem{padding:13px 11px;border-radius:14px}
+}
 @media (min-width:760px){
   .poems{grid-template-columns:1fr 1fr}
   .poem p{font-size:1rem}
@@ -122,12 +129,11 @@ body{
 </style>
 </head>
 <body>
-<header class="topbar">
-  <div class="topbar-inner">
-    <p class="page-title">שירי תלמידים להדפסה</p>
-    <button class="print-button" id="printButton" type="button">הדפס</button>
+<header class="topbar" aria-label="פעולות מהירות">
+  <div class="actions">
+    <button class="action-button print-button" id="printButton" type="button">הדפס</button>
+    <a class="action-button whatsapp-button" id="whatsappButton" href="https://wa.me/?text=https%3A%2F%2Fyanivmizrachiy.github.io%2Fparabula2%2F" target="_blank" rel="noopener">שלח לווטסאפ</a>
   </div>
-  <div class="status" id="status">הדף מוכן לנייד ולהדפסת A4.</div>
 </header>
 
 <main class="sheet">
@@ -334,8 +340,10 @@ body{
 <script>
 (function(){
   const poems = Array.from(document.querySelectorAll('.poem'));
-  const status = document.getElementById('status');
   const printButton = document.getElementById('printButton');
+  const whatsappButton = document.getElementById('whatsappButton');
+  const pageUrl = 'https://yanivmizrachiy.github.io/parabula2/';
+  const shareText = 'שירי תלמידים להדפסה: ' + pageUrl;
 
   function validate(){
     const problems = [];
@@ -343,21 +351,26 @@ body{
       const name = poem.dataset.student || 'ללא שם';
       const lines = poem.querySelectorAll('p');
       if(lines.length !== 5) problems.push(name + ': ' + lines.length + ' שורות במקום 5');
-      const hasMarkedName = poem.querySelector('.student-name');
-      if(!hasMarkedName) problems.push(name + ': השם לא סומן בצבע בתוך השיר');
+      if(!poem.querySelector('.student-name')) problems.push(name + ': השם לא סומן בצבע בתוך השיר');
     });
     if(problems.length){
-      status.textContent = 'נמצאו בעיות: ' + problems.join(' | ');
-      status.style.color = '#b91c1c';
+      console.error('בדיקת תקינות נכשלה:', problems);
+      alert('נמצאו בעיות בדף: ' + problems.join(' | '));
       return false;
     }
-    status.textContent = 'הדף מוכן: ' + poems.length + ' שירים, כל שיר בדיוק 5 שורות. מותאם לנייד ולהדפסת A4.';
     return true;
   }
 
   printButton.addEventListener('click', ()=>{
-    validate();
-    window.print();
+    if(validate()) window.print();
+  });
+
+  whatsappButton.href = 'https://wa.me/?text=' + encodeURIComponent(shareText);
+  whatsappButton.addEventListener('click', (event)=>{
+    event.preventDefault();
+    if(!validate()) return;
+    const url = 'https://wa.me/?text=' + encodeURIComponent(shareText);
+    window.open(url, '_blank', 'noopener');
   });
 
   validate();
